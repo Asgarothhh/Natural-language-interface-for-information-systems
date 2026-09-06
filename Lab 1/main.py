@@ -30,7 +30,7 @@ def show_help() -> None:
   and <запрос>        логический поиск по И (все термины сразу)
   open <id>           открыть документ по идентификатору
   list                показать проиндексированные документы
-  eval                таблица метрик качества на тестовых запросах
+  eval                таблица и график метрик качества на тестовых запросах
   help                эта справка
   quit                выход
 
@@ -72,7 +72,9 @@ def print_metrics(pipeline: SearchPipeline) -> None:
         )
     print("-" * len(header))
     print(f"{'MAP':<38} {pipeline.mean_average_precision(scores):6.2f}\n")
-    print("P — точность, R — полнота, F1 — среднее гармоническое, AP — average precision, MAP — среднее AP.\n")
+    print("P — точность, R — полнота, F1 — среднее гармоническое, AP — average precision, MAP — среднее AP.")
+    chart_path = pipeline.visualize_metrics(scores)
+    print(f"График метрик сохранён: {chart_path}\n")
 
 
 def open_document(doc_id: int) -> None:

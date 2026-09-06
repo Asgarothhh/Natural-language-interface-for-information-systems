@@ -4,6 +4,9 @@ import os
 from dataclasses import dataclass
 from typing import Iterable, List, Sequence
 
+import matplotlib.pyplot as plt
+import numpy as np
+
 from src.corpus import ensure_corpus
 from src.document import DOCUMENTS_DB, VOCABULARY, Document
 from src.search import Search, SearchResult
@@ -88,6 +91,59 @@ class SearchPipeline:
         if not scores:
             return 0.0
         return sum(item.average_precision for item in scores) / len(scores)
+
+    def visualize_metrics(
+        self,
+        scores: Sequence[QualityScores] | None = None,
+        output_path: str | None = None,
+        show: bool = True,
+    ) -> str:
+        """Столбчатая диаграмма P, R, F1, AP по запросам и линия MAP."""
+        scores = list(scores) if scores is not None else self.evaluate()
+        if output_path is None:
+            output_path = os.path.join(os.path.dirname(self.documents_dir), "quality_metrics.png")
+
+        if not scores:
+            fig, ax = plt.subplots(figsize=(8, 4))
+            ax.set_title("Метрики качества поиска")
+            ax.text(0.5, 0.5, "Нет оценок для визуализации", ha="center", va="center")
+            ax.axis("off")
+            fig.savefig(output_path, dpi=150, bbox_inches="tight")
+            if show:
+                plt.show()
+            plt.close(fig)
+            return output_path
+
+        labels = [item.query for item in scores]
+        x = np.arange(len(labels))
+        width = 0.18
+        series = (
+            ("P", [item.precision for item in scores]),
+            ("R", [item.recall for item in scores]),
+            ("F1", [item.f1 for item in scores]),
+            ("AP", [item.average_precision for item in scores]),
+        )
+        map_value = self.mean_average_precision(scores)
+
+        fig, ax = plt.subplots(figsize=(12, 6))
+        for index, (name, values) in enumerate(series):
+            ax.bar(x + (index - 1.5) * width, values, width, label=name)
+
+        ax.axhline(map_value, color="black", linestyle="--", linewidth=1.2, label=f"MAP = {map_value:.2f}")
+        ax.set_ylim(0, 1.15)
+        ax.set_ylabel("Значение")
+        ax.set_title("Метрики качества поиска")
+        ax.set_xticks(x)
+        ax.set_xticklabels(labels, rotation=25, ha="right")
+        ax.legend(loc="upper right")
+        ax.grid(axis="y", linestyle=":", alpha=0.6)
+        fig.tight_layout()
+        os.makedirs(os.path.dirname(output_path) or ".", exist_ok=True)
+        fig.savefig(output_path, dpi=150, bbox_inches="tight")
+        if show:
+            plt.show()
+        plt.close(fig)
+        return output_path
 
     def run(self) -> List[str]:
         self.setup_environment()
