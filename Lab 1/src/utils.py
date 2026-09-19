@@ -25,7 +25,7 @@ def _english_stopwords() -> set[str]:
     try:
         from nltk.corpus import stopwords
         _stop_words = set(stopwords.words("english"))
-    except LookupError:
+    except (LookupError, ImportError):
         _stop_words = set(_FALLBACK_STOPWORDS)
     return _stop_words
 
@@ -41,7 +41,7 @@ def _get_lemmatizer():
         candidate = WordNetLemmatizer()
         candidate.lemmatize("switches")
         _lemmatizer = candidate
-    except LookupError:
+    except (LookupError, ImportError):
         _lemmatizer = False
         return None
     return _lemmatizer
@@ -54,7 +54,7 @@ def _tokenize(text: str) -> list[str]:
             from nltk.tokenize import word_tokenize
             word_tokenize("test sentence")
             _use_word_tokenize = word_tokenize
-        except LookupError:
+        except (LookupError, ImportError):
             _use_word_tokenize = False
     if _use_word_tokenize:
         return _use_word_tokenize(text)

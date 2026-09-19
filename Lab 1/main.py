@@ -6,7 +6,7 @@ import sys
 import webbrowser
 
 from src.document import DOCUMENTS_DB, VOCABULARY
-from src.pipeline import SearchPipeline
+from src.pipeline import SearchPipeline, average_pr_curve, eleven_point_curve
 from src.search import SearchResult
 
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -30,11 +30,24 @@ def show_help() -> None:
   and <запрос>        логический поиск по И (все термины сразу)
   open <id>           открыть документ по идентификатору
   list                показать проиндексированные документы
-  eval                таблица и график метрик качества на тестовых запросах
+  eval                таблица, столбчатый график и 11-точечная кривая P/R на тесте
   help                эта справка
   quit                выход
 
-Примеры
+Экспертные оценки после search / and
+  После выдачи система спросит релевантные документы.
+  Введите id из команды list через запятую или пробел.
+  Пустая строка — пропустить оценку и кривую.
+
+  Примеры правильного ввода
+    2,4          релевантны документы 2 и 4
+    2 4 6        то же через пробел
+    7            один релевантный документ
+
+  По этим id считаются P, R, F1, AP и строится 11-точечная
+  кривая полноты/точности (TREC / ROMIP) вместе с кривой теста.
+
+Примеры запросов
   search ethernet switch vlan
   and wireless access point
         """.strip()
@@ -58,6 +71,48 @@ def print_search(results: list[SearchResult], query: str, mode: str) -> None:
         _print_result(index, item)
 
 
+def ask_expert_judgments() -> set[int] | None:
+    raw = input("Релевантные id (например 2,4; Enter — пропустить): ").strip()
+    if not raw:
+        return None
+
+    relevant: set[int] = set()
+    for token in raw.replace(",", " ").split():
+        if not token.isdigit():
+            print("Нужны номера документов: 2,4  или  2 4")
+            return None
+        doc_id = int(token)
+        if doc_id not in DOCUMENTS_DB:
+            print(f"Документа {doc_id} нет в коллекции (смотрите list).")
+            continue
+        relevant.add(doc_id)
+    return relevant or None
+
+
+def assess_user_query(pipeline: SearchPipeline, query: str, results: list[SearchResult]) -> None:
+    relevant = ask_expert_judgments()
+    if not relevant:
+        return
+
+    retrieved = [item.document_id for item in results]
+    score = pipeline.evaluate_query(query, retrieved, relevant)
+    print(
+        f"\nВаши оценки: {sorted(relevant)}   "
+        f"P={score.precision:.2f}  R={score.recall:.2f}  "
+        f"F1={score.f1:.2f}  AP={score.average_precision:.2f}\n"
+    )
+
+    data_dir = os.path.dirname(pipeline.documents_dir)
+    path = pipeline.visualize_pr_curve(
+        [
+            (f"ваш запрос: {query}", eleven_point_curve(retrieved, relevant)),
+            ("тестовый набор", average_pr_curve(pipeline.evaluate())),
+        ],
+        output_path=os.path.join(data_dir, "pr_curve.png"),
+    )
+    print(f"Кривая полноты/точности сохранена: {path}\n")
+
+
 def print_metrics(pipeline: SearchPipeline) -> None:
     scores = pipeline.evaluate()
     print("\nОценка качества (логические запросы, экспертная разметка)\n")
@@ -74,7 +129,12 @@ def print_metrics(pipeline: SearchPipeline) -> None:
     print(f"{'MAP':<38} {pipeline.mean_average_precision(scores):6.2f}\n")
     print("P — точность, R — полнота, F1 — среднее гармоническое, AP — average precision, MAP — среднее AP.")
     chart_path = pipeline.visualize_metrics(scores)
-    print(f"График метрик сохранён: {chart_path}\n")
+    pr_path = pipeline.visualize_pr_curve(
+        [("тестовый набор", average_pr_curve(scores))],
+        output_path=os.path.join(os.path.dirname(pipeline.documents_dir), "pr_curve_test.png"),
+    )
+    print(f"График метрик сохранён: {chart_path}")
+    print(f"Кривая полноты/точности (TREC) сохранена: {pr_path}\n")
 
 
 def open_document(doc_id: int) -> None:
@@ -136,6 +196,7 @@ def interactive_loop(pipeline: SearchPipeline) -> None:
                 continue
             results = pipeline.search(argument, all_words_together=(command == "and"))
             print_search(results, argument, "AND" if command == "and" else "OR")
+            assess_user_query(pipeline, argument, results)
         else:
             print("Неизвестная команда. Введите help.")
 

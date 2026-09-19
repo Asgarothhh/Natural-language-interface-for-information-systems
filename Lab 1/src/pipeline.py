@@ -145,6 +145,38 @@ class SearchPipeline:
         plt.close(fig)
         return output_path
 
+    def evaluate_query(self, query: str, retrieved: List[int], relevant: set[int]) -> QualityScores:
+        return _score_query(query, retrieved, relevant)
+
+    def visualize_pr_curve(
+        self,
+        series: Sequence[tuple[str, Sequence[float]]],
+        output_path: str | None = None,
+        show: bool = True,
+    ) -> str:
+        if output_path is None:
+            output_path = os.path.join(os.path.dirname(self.documents_dir), "pr_curve.png")
+
+        fig, ax = plt.subplots(figsize=(8, 6))
+        levels = [i / 10 for i in range(11)]
+        for label, values in series:
+            ax.plot(levels, values, marker="o", label=label)
+        ax.set_xlabel("Полнота")
+        ax.set_ylabel("Точность")
+        ax.set_xlim(0, 1)
+        ax.set_ylim(0, 1.05)
+        ax.set_xticks(levels)
+        ax.set_title("11-точечная кривая полноты/точности (TREC / ROMIP)")
+        ax.grid(True, linestyle=":", alpha=0.6)
+        ax.legend()
+        fig.tight_layout()
+        os.makedirs(os.path.dirname(output_path) or ".", exist_ok=True)
+        fig.savefig(output_path, dpi=150, bbox_inches="tight")
+        if show:
+            plt.show()
+        plt.close(fig)
+        return output_path
+
     def run(self) -> List[str]:
         self.setup_environment()
         paths = self.build_collection()
@@ -154,6 +186,35 @@ class SearchPipeline:
 
 def _safe_div(numerator: float, denominator: float) -> float:
     return numerator / denominator if denominator else 0.0
+
+
+def eleven_point_curve(retrieved: List[int], relevant: set[int]) -> List[float]:
+    if not relevant:
+        return [0.0] * 11
+
+    hits = 0
+    observed: List[tuple[float, float]] = []
+    for rank, doc_id in enumerate(retrieved, start=1):
+        if doc_id in relevant:
+            hits += 1
+            observed.append((hits / len(relevant), hits / rank))
+
+    points = []
+    for level in (i / 10 for i in range(11)):
+        later = [precision for recall, precision in observed if recall >= level]
+        points.append(max(later) if later else 0.0)
+    return points
+
+
+def average_pr_curve(scores: Sequence[QualityScores]) -> List[float]:
+    curves = [
+        eleven_point_curve(item.retrieved, item.relevant)
+        for item in scores
+        if item.relevant
+    ]
+    if not curves:
+        return [0.0] * 11
+    return list(np.mean(np.array(curves), axis=0))
 
 
 def _score_query(query: str, retrieved: List[int], relevant: set[int]) -> QualityScores:
