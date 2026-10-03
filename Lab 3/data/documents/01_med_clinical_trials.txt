@@ -1,0 +1,22 @@
+Clinical Trials and Vaccine Safety
+
+A clinical trial is a controlled study that tests a vaccine, a drug, or a therapy in
+patients. Randomized clinical trials assign patients to a treatment group or a control
+group. A placebo may be used when no standard treatment exists. Double-blind methods
+hide the assignment from the physician and the patient.
+
+The primary endpoint of a vaccine trial is often prevention of infection. Secondary
+endpoints include side effects, fever, and other adverse events. Safety and efficacy
+must both be shown before public health agencies approve a vaccine.
+
+Antibodies are proteins of the immune system. After vaccination the body produces
+antibodies that recognize an antigen of the virus. This immune response can prevent
+severe disease even when mild infection still occurs. Population studies measure
+mortality and morbidity after a vaccination campaign.
+
+Clinical guidelines describe the dose and the schedule. A high dose may raise
+efficacy and also raise the risk of side effects. Chronic conditions such as diabetes
+or hypertension require separate analysis because they change the outcome.
+
+The article argues that transparent data from randomized trials remain the main
+scientific method for medical decisions about vaccines and new drugs.

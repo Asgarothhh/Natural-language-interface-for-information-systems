@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"/>
+  <title>Перевод — Clinical Trials and Vaccine Safety</title>
+  <style>
+    body { font-family: Georgia, serif; max-width: 960px; margin: 2rem auto; line-height: 1.45; }
+    .tabs button { margin-right: .4rem; padding: .4rem .8rem; }
+    .tab { display: none; border: 1px solid #ccc; padding: 1rem; }
+    .tab.active { display: block; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid #ddd; padding: .35rem .5rem; text-align: left; }
+    tr.miss td { color: #a33; }
+    pre { background: #f6f3ee; padding: 1rem; overflow: auto; }
+  </style>
+</head>
+<body>
+  <h1>Clinical Trials and Vaccine Safety</h1>
+  <p><strong>Исходный документ:</strong> <a href="file:///home/asgaroth/University/4%20курс/Natural-language-interface-for-information-systems/Lab%203/data/documents/01_med_clinical_trials.pdf">/home/asgaroth/University/4 курс/Natural-language-interface-for-information-systems/Lab 3/data/documents/01_med_clinical_trials.pdf</a></p>
+  <p>Слов: 182, переведено: 176,
+     покрытие: 97%. Нет в словаре: assignment, even, other, separate, when.</p>
+  <h2>Перевод</h2>
+  <p>Клиническое исследование является исследование контролируемый тот проверяет вакцина, лекарство, или терапия в пациенты. Рандомизированный клинические исследования пациенты назначают к лечение группа или контрольная группа. Плацебо может быть используемый when нет лечение стандартный существует. Двойной слепой методы скрывают assignment из врач и пациент. Конечная точка первичный испытание вакцина является часто профилактика инфекция. Конечные точки вторичный включают побочные эффекты, лихорадка, и other нежелательные явления. Безопасность и эффективность должен оба быть показано до агентства общественное здравоохранение одобряют вакцина. Антитела являются белки иммунная система. После вакцинация организм производит антитела тот распознают антиген вирус. Этот ответ иммунный может предотвращать болезнь тяжёлый even when инфекция лёгкий всё ещё происходит. Популяция исследования измеряют смертность и заболеваемость после вакцинация кампания. Рекомендации клинический описывать доза и схема. Доза высокий может повышать эффективность и также повышать риск побочные эффекты. Состояния хронический такой как диабет или гипертензия требуют анализ separate потому что они изменяют исход. Статья утверждает тот прозрачный данные из рандомизированный испытания остаются главный метод научный для решения медицинский о вакцины и лекарства новый.</p>
+  <div class="tabs">
+    <button type="button" onclick="showTab(1)">Вкладка 1. Частоты и грамматика</button>
+    <button type="button" onclick="showTab(2)">Вкладка 2. Дерево разбора</button>
+  </div>
+  <div id="tab1" class="tab active">
+    <table>
+      <thead><tr><th>частота</th><th>слово</th><th>перевод</th><th>POS</th><th>расшифровка</th></tr></thead>
+      <tbody><tr><td>13</td><td>the</td><td>—</td><td>DT</td><td>детерминатив, артикль (the, a, this)</td></tr><tr><td>12</td><td>A</td><td>—</td><td>DT</td><td>детерминатив, артикль (the, a, this)</td></tr><tr><td>7</td><td>and</td><td>и</td><td>CC</td><td>сочинительный союз (and, but, or)</td></tr><tr><td>5</td><td>of</td><td>—</td><td>IN</td><td>предлог или подчинительный союз (in, of, that)</td></tr><tr><td>3</td><td>or</td><td>или</td><td>CC</td><td>сочинительный союз (and, but, or)</td></tr><tr><td>3</td><td>that</td><td>тот</td><td>WDT</td><td>wh-детерминатив (which, that)</td></tr><tr><td>3</td><td>vaccine</td><td>вакцина</td><td>NN</td><td>существительное, ед. число (patient, museum)</td></tr><tr><td>2</td><td>After</td><td>после</td><td>IN</td><td>предлог или подчинительный союз (in, of, that)</td></tr><tr><td>2</td><td>Antibodies</td><td>антитела</td><td>NNS</td><td>существительное, мн. число (patients, colors)</td></tr><tr><td>2</td><td>be</td><td>быть</td><td>VB</td><td>глагол, базовая форма (treat)</td></tr><tr><td>2</td><td>dose</td><td>доза</td><td>NN</td><td>существительное, ед. число (patient, museum)</td></tr><tr><td>2</td><td>efficacy</td><td>эффективность</td><td>NN</td><td>существительное, ед. число (patient, museum)</td></tr><tr><td>2</td><td>from</td><td>из</td><td>IN</td><td>предлог или подчинительный союз (in, of, that)</td></tr><tr><td>2</td><td>infection</td><td>инфекция</td><td>NN</td><td>существительное, ед. число (patient, museum)</td></tr><tr><td>2</td><td>is</td><td>является</td><td>VBZ</td><td>глагол, настоящее, 3 л. ед. (treats)</td></tr><tr><td>2</td><td>may</td><td>может</td><td>MD</td><td>модальный глагол (can, must, will)</td></tr><tr><td>2</td><td>patients</td><td>пациенты</td><td>NNS</td><td>существительное, мн. число (patients, colors)</td></tr><tr><td>2</td><td>raise</td><td>повышать</td><td>VB</td><td>глагол, базовая форма (treat)</td></tr><tr><td>2</td><td>Randomized</td><td>рандомизированный</td><td>NNP</td><td>имя собственное, ед. число</td></tr><tr><td>2</td><td>treatment</td><td>лечение</td><td>NN</td><td>существительное, ед. число (patient, museum)</td></tr><tr><td>2</td><td>vaccination</td><td>вакцинация</td><td>NN</td><td>существительное, ед. число (patient, museum)</td></tr><tr class='miss'><td>2</td><td>when</td><td>when</td><td>WRB</td><td>wh-наречие (where, when, how)</td></tr><tr><td>1</td><td>about</td><td>о</td><td>IN</td><td>предлог или подчинительный союз (in, of, that)</td></tr><tr><td>1</td><td>agencies</td><td>агентства</td><td>NNS</td><td>существительное, мн. число (patients, colors)</td></tr><tr><td>1</td><td>also</td><td>также</td><td>RB</td><td>наречие (often, clinically)</td></tr><tr><td>1</td><td>an</td><td>—</td><td>DT</td><td>детерминатив, артикль (the, a, this)</td></tr><tr><td>1</td><td>analysis</td><td>анализ</td><td>NN</td><td>существительное, ед. число (patient, museum)</td></tr><tr><td>1</td><td>antigen</td><td>антиген</td><td>NN</td><td>существительное, ед. число (patient, museum)</td></tr><tr><td>1</td><td>approve</td><td>одобряют</td><td>VBP</td><td>глагол, настоящее, не 3 л. ед. (treat)</td></tr><tr><td>1</td><td>are</td><td>являются</td><td>VBP</td><td>глагол, настоящее, не 3 л. ед. (treat)</td></tr><tr><td>1</td><td>argues</td><td>утверждает</td><td>VBZ</td><td>глагол, настоящее, 3 л. ед. (treats)</td></tr><tr><td>1</td><td>article</td><td>статья</td><td>NN</td><td>существительное, ед. число (patient, museum)</td></tr><tr><td>1</td><td>as</td><td>как</td><td>IN</td><td>предлог или подчинительный союз (in, of, that)</td></tr><tr><td>1</td><td>assign</td><td>назначают</td><td>JJ</td><td>прилагательное (clinical, red)</td></tr><tr class='miss'><td>1</td><td>assignment</td><td>assignment</td><td>NN</td><td>существительное, ед. число (patient, museum)</td></tr><tr><td>1</td><td>because</td><td>потому что</td><td>IN</td><td>предлог или подчинительный союз (in, of, that)</td></tr><tr><td>1</td><td>before</td><td>до</td><td>IN</td><td>предлог или подчинительный союз (in, of, that)</td></tr><tr><td>1</td><td>body</td><td>организм</td><td>NN</td><td>существительное, ед. число (patient, museum)</td></tr><tr><td>1</td><td>both</td><td>оба</td><td>DT</td><td>детерминатив, артикль (the, a, this)</td></tr><tr><td>1</td><td>campaign</td><td>кампания</td><td>NN</td><td>существительное, ед. число (patient, museum)</td></tr><tr><td>1</td><td>can</td><td>может</td><td>MD</td><td>модальный глагол (can, must, will)</td></tr><tr><td>1</td><td>change</td><td>изменяют</td><td>VBP</td><td>глагол, настоящее, не 3 л. ед. (treat)</td></tr><tr><td>1</td><td>Chronic</td><td>хронический</td><td>JJ</td><td>прилагательное (clinical, red)</td></tr><tr><td>1</td><td>Clinical</td><td>клинический</td><td>JJ</td><td>прилагательное (clinical, red)</td></tr><tr><td>1</td><td>conditions</td><td>состояния</td><td>NNS</td><td>существительное, мн. число (patients, colors)</td></tr><tr><td>1</td><td>controlled</td><td>контролируемый</td><td>JJ</td><td>прилагательное (clinical, red)</td></tr><tr><td>1</td><td>data</td><td>данные</td><td>NNS</td><td>существительное, мн. число (patients, colors)</td></tr><tr><td>1</td><td>decisions</td><td>решения</td><td>NNS</td><td>существительное, мн. число (patients, colors)</td></tr><tr><td>1</td><td>describe</td><td>описывать</td><td>VBP</td><td>глагол, настоящее, не 3 л. ед. (treat)</td></tr><tr><td>1</td><td>diabetes</td><td>диабет</td><td>NNS</td><td>существительное, мн. число (patients, colors)</td></tr></tbody>
+    </table>
+  </div>
+  <div id="tab2" class="tab">
+    <p>A clinical trial is a controlled study that tests a vaccine, a drug, or a therapy in
+patients.</p>
+    <pre>                                                                           S                                                                                                         
+    _______________________________________________________________________|__________________________________________________________________________________________                
+   |      |   |    |    |                            CLAUSE                                            |                        |                |                    |              
+   |      |   |    |    |             _________________|__________                                     |                        |                |                    |               
+   |      |   |    |    |            |                            VP                                   VP                       |                |                    PP             
+   |      |   |    |    |            |                  __________|________                      ______|____                    |                |                ____|_______        
+   |      |   |    |    |            NP                |                   NP                   |           NP                  NP               NP              |            NP     
+   |      |   |    |    |    ________|_________        |      _____________|__________          |       ____|______         ____|_____       ____|______         |            |       
+that/WDT ,/, ,/, or/CC ./. A/DT clinical/JJ trial/NN is/VBZ a/DT     controlled/JJ study/NN tests/VBZ a/DT     vaccine/NN a/DT     drug/NN a/DT     therapy/NN in/IN     patients/NNS</pre>
+  </div>
+  <script>
+    function showTab(n) {
+      document.getElementById('tab1').className = n === 1 ? 'tab active' : 'tab';
+      document.getElementById('tab2').className = n === 2 ? 'tab active' : 'tab';
+    }
+  </script>
+</body>
+</html>
