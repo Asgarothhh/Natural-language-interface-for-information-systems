@@ -1,0 +1,80 @@
+Реферат документа: Artificial intelligence
+id=1  язык=english  область=computer science
+Исходный документ: /home/asgaroth/University/4 курс/Natural-language-interface-for-information-systems/Lab 2/data/documents/01_en_cs_artificial_intelligence.pdf
+Предложений в тексте: 298  символов: 40720
+
+=== 1. Sentence extraction ===
+
+Ключевые слова (иерархия):
+knowledge
+    knowledge representation
+    commonsense knowledge
+    reasoning knowledge
+    reasoning knowledge representation
+intelligence
+    artificial intelligence
+    general intelligence
+    human intelligence
+    intelligence agi
+neural
+    neural networks
+    artificial neural
+    neural network
+    artificial neural networks
+nuclear
+    nuclear power
+    nuclear power plant
+    negotiations nuclear
+    pennsylvania nuclear
+artificial
+    artificial general
+    artificial general intelligence
+    logic artificial
+    create artificial
+mathematical
+    mathematical optimisation
+    mathematical problems
+    engineering mathematics
+    mathematics computer
+prediction
+    predicting next
+    predicting next token
+    prediction models
+    makes predictions
+nodes
+    nodes labelled
+    trees nodes
+    children nodes
+    nodes connected
+
+Классический реферат:
+1. Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making.
+2. It is a field of research in engineering, mathematics, and computer science that develops and studies methods and software that enable machines to perceive their environment and use learning and intelligence to take actions that maximise their chances of achieving defined goals.
+3. High-profile applications of AI include advanced web search engines, chatbots, virtual assistants, autonomous vehicles, play and analysis in strategy games (e.g., chess and Go), and content generation (e.g., text, images, audio, and videos).
+4. Reasoning and problem-solving
+Early researchers developed algorithms that imitated step-by-step reasoning that humans use when solving puzzles or making logical deductions.
+5. The symbolic approach has difficulty with several problems: the breadth of commonsense knowledge (the set of atomic facts the average person knows is enormous), the sub-symbolic form of most commonsense knowledge (much of what people know is not represented as "facts" or "statements" they can express verbally), and knowledge acquisition (the problem of obtaining knowledge for AI applications).
+6. Supervised learning requires labelling the training data with the expected answers, and comes in two main varieties: classification (where the program must learn to predict what category the input belongs in) and regression (where the program must deduce a numeric function based on numeric input).
+7. Early work, based on Noam Chomsky's generative grammar and semantic networks, had difficulty with word-sense disambiguation unless restricted to small domains called "micro-worlds" (due to the common sense knowledge problem).
+8. Perception
+Machine perception is the ability to use input from sensors (such as cameras, microphones, wireless signals, active lidar, sonar, radar, and tactile sensors) to deduce aspects of the world.
+9. General intelligence
+A machine with artificial general intelligence (AGI) would be able to solve a wide variety of problems with breadth and versatility similar to human intelligence.
+10. Formal logic comes in two main forms: propositional logic (which operates on statements that are true or false and uses logical connectives such as "and", "or", "not" and "implies") and predicate logic (which also operates on objects, predicates and relations and uses quantifiers such as "Every X is a Y" and "There are some Xs that are Ys").
+
+=== 2. Машинное обучение (TextRank) ===
+
+1. Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making.
+2. The traditional goals of AI research include learning, reasoning, knowledge representation, planning, natural language processing, and perception, as well as support for robotics.
+3. To reach these goals, AI researchers use techniques including state space search and mathematical optimisation, formal logic, artificial neural networks, and methods based on statistics, operations research, and economics.
+4. Deep learning is a type of machine learning that runs inputs through biologically inspired artificial neural networks for all of these types of learning.
+5. Search and optimisation
+There are two different kinds of search used in AI: state space search and local search:
+6. Logic
+Formal logic is used for reasoning and knowledge representation.
+7. Many problems in AI (including reasoning, planning, learning, perception, and robotics) require the agent to operate with incomplete or uncertain information.
+8. Learning algorithms for neural networks use local search to choose the weights that will get the right output for each input during training.
+9. Deep learning has been used to improve the performance of programs in subfields of artificial intelligence including computer vision, speech recognition, natural language processing, image classification and others.
+10. Machine learning algorithms require large amounts of data.
+
+Время SE: 1.5 мс   время ML: 10.3 мс

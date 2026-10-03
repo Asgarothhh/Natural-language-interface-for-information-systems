@@ -1,0 +1,77 @@
+Реферат документа: Operating system
+id=2  язык=english  область=computer science
+Исходный документ: /home/asgaroth/University/4 курс/Natural-language-interface-for-information-systems/Lab 2/data/documents/02_en_cs_operating_system.pdf
+Предложений в тексте: 322  символов: 37978
+
+=== 1. Sentence extraction ===
+
+Ключевые слова (иерархия):
+cpu
+    unit cpu
+    cpu time
+    processing unit cpu
+    cpu access
+linux
+    macos linux
+    ipados macos linux
+    linux desktop
+    windows macos linux
+thread
+    multiple threads
+    separate thread
+    thread link
+    threads enable
+unix
+    unix systems
+    unix operating
+    unix like
+    unix like operating
+library
+    system libraries
+    often library
+    library protection
+    library library
+gui
+    interface gui
+    user interface gui
+    gui apple
+    gui proved
+stack
+    call stack
+    pop call stack
+    onto call stack
+    stack registers
+android
+    android popular
+    android popular operating
+    android ios
+    android ios ipados
+
+Классический реферат:
+1. Time-sharing operating systems schedule tasks for efficient use of the system and may also include accounting software for cost allocation of processor time, mass storage, peripherals, and other resources.
+2. For hardware functions such as input and output and memory allocation, the operating system acts as an intermediary between programs and the computer hardware, although the application code is usually executed directly by the hardware and frequently makes system calls to an OS function or is interrupted by it.
+3. In order to ensure that one program cannot monopolize the computer's limited hardware resources, the operating system gives each application a share of the resource, either in time (CPU) or space (memory).
+4. Library
+A library operating system (libOS) is one in which the services that a typical operating system provides, such as networking, are provided in the form of libraries and composed with a single application and configuration code to construct a unikernel: a specialized (only the absolute necessary pieces of code are extracted from libraries and bound together), single address space, machine image that can be deployed to cloud or embedded environments.
+5. The operating system code and application code are not executed in separated protection domains (there is only a single application running, at least conceptually, so there is no need to prevent interference between applications) and OS services are accessed via simple library calls (potentially inlining them based on compiler thresholds), without the usual overhead of context switches, in a way similarly to embedded and real-time OSes.
+6. These still needed professional operators who manually do what a modern operating system would do, such as scheduling programs to run, but mainframes still had rudimentary operating systems such as Fortran Monitor System (FMS) and IBSYS.
+7. Later, IBM bought a disk operating system from Microsoft, which IBM sold as IBM PC DOS and Microsoft branded as MS-DOS (MicroSoft Disk Operating System) and was widely used on IBM PC compatible microcomputers.
+8. This protection is key to improving reliability by keeping errors isolated to one program, as well as security by limiting the power of malicious software and protecting private data, and ensuring that one program cannot monopolize the computer's resources.
+9. Executing an application program typically involves the creation of a process by the operating system kernel, which assigns memory space and other resources, establishes a priority for the process in multi-tasking systems, loads program binary code into memory, and initiates execution of the application program, which then interacts with the user and with hardware devices.
+10. Direct memory access
+Devices such as hard disk drives, solid-state drives, and magnetic tape drives can transfer data at a rate high enough that interrupting the CPU for every byte or word transferred, and having the CPU transfer the byte or word between the device and memory, would require too much CPU time.
+
+=== 2. Машинное обучение (TextRank) ===
+
+1. An operating system (OS) is system software that manages computer hardware and software resources, and provides common services for computer programs.
+2. The two other types of programs that can run on a computer are system programs—which are associated with the operating system, but may not be part of the kernel—and applications—all other software.
+3. In order to ensure that one program cannot monopolize the computer's limited hardware resources, the operating system gives each application a share of the resource, either in time (CPU) or space (memory).
+4. Virtualization also enables the operating system to mask limited hardware resources; for example, virtual memory can provide a program with the illusion of nearly unlimited memory that exceeds the computer's actual memory.
+5. UNIX operating systems, especially Linux, are the most popular on enterprise systems and servers but are also used on mobile devices and many other computer systems.
+6. The operating system provides an interface between an application program and the computer hardware, so that an application program can interact with the hardware only by obeying rules and procedures programmed into the operating system.
+7. Executing an application program typically involves the creation of a process by the operating system kernel, which assigns memory space and other resources, establishes a priority for the process in multi-tasking systems, loads program binary code into memory, and initiates execution of the application program, which then interacts with the user and with hardware devices.
+8. The operating system includes device drivers to access input/output devices.
+9. Memory protection enables the kernel to limit a process' access to the computer's memory.
+10. The use of virtual memory addressing (such as paging or segmentation) means that the kernel can choose what memory each program may use at any given time, allowing the operating system to use the same memory locations for multiple tasks.
+
+Время SE: 1.4 мс   время ML: 5.6 мс

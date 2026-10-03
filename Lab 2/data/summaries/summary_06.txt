@@ -1,0 +1,89 @@
+Реферат документа: Base de données
+id=6  язык=french  область=computer science
+Исходный документ: /home/asgaroth/University/4 курс/Natural-language-interface-for-information-systems/Lab 2/data/documents/06_fr_cs_base_de_donnees.pdf
+Предложений в тексте: 266  символов: 41867
+
+=== 1. Sentence extraction ===
+
+Ключевые слова (иерархия):
+sgbd
+    sgbd logiciel
+    sgbd permet
+    aide sgbd
+    sgbd effectue
+logiciel
+    logiciel moteur
+    logiciel applicatif
+    logiciels applicatifs
+    logiciels applicatifs ensemble
+manipulation
+    manipulation données
+    manipule base
+    manipule base données
+    manipulation données utilisations
+relationnel
+    données relationnelles
+    données relationnels
+    modèles données relationnels
+    bases données relationnelles
+fichiers
+    stockés fichiers
+    fichiers chaque
+    chaque fichier
+    fichier contient
+hiérarchique
+    données hiérarchique
+    modèle hiérarchique
+    hiérarchique base
+    hiérarchique base données
+cohérence
+    règles cohérence
+    assurer cohérence
+    cohérence telles
+    règles cohérence telles
+stockage
+    stockage données
+    stockage utilisation
+    forme stockage
+    collecte stockage
+
+Классический реферат:
+1. Une base de données permet de stocker et de retrouver des données structurées, semi-structurées ou des données brutes ou de l'information, souvent en rapport avec un thème ou une activité ; celles-ci peuvent être de natures différentes et plus ou moins reliées entre elles.
+2. Description
+Une base de données est une collection organisée d'objets structurés tels que des nombres, des textes, des dates, des images, et généralement des objets structurés etc., pouvant être traités par des moyens informatiques pour produire une information ; par exemple, des chiffres et des noms assemblés et triés pour former un annuaire.
+3. Modèle de données logique et physique
+Le modèle de données logique — ou conceptuel — est la description des données telles qu'elles sont dans la pratique, tandis que le modèle de données physique est un modèle dérivé du modèle logique qui décrit comment les données seront techniquement stockées dans la base de données.
+4. Entité
+Une entité est un sujet, une notion en rapport avec le domaine d'activité pour lequel la base de données est utilisée, et concernant lequel des données sont enregistrées (exemple : des personnes, des produits, des commandes, des réservations…).
+5. Base de données relationnelle
+Base de données organisée selon un modèle de données de type relationnel, à l'aide d'un SGBD permettant ce type de modèle.
+6. Clé primaire
+Dans les modèles de données relationnels, la clé primaire est un attribut dont le contenu est différent pour chaque enregistrement de la table, ce qui permet de retrouver un et un seul enregistrement
+7. Clé étrangère
+Dans les modèles de données relationnels, une clé étrangère est un attribut qui contient une référence à une donnée connexe — dans les faits la valeur de la clé primaire de la donnée connexe.
+8. Intégrité référentielle
+Dans les modèles de données relationnels, il y a situation d´intégrité référentielle lorsque toutes les données référencées par les clés étrangères sont présentes dans la base de données.
+9. Les bases de données peuvent être classifiées en fonction du nombre d'usagers, du type de contenu, notamment s'il est faiblement ou fortement structuré, ainsi que selon l'usage qui est fait de la base de données, notamment l'utilisation opérationnelle ou à des fins d'analyse :
+Les bases de données peuvent être classifiées en fonction du nombre d'usagers — un seul, un petit groupe, voire une entreprise.
+10. Bases d'analyse dites aussi OLAP (de l'anglais online analytical processing)
+sont composées d'informations historiques telles que des mesures sur lesquelles sont effectuées des opérations massives en vue d'obtenir des statistiques et des prévisions.
+
+=== 2. Машинное обучение (TextRank) ===
+
+1. Le dispositif comporte un système de gestion de base de données (abréviation : SGBD) : un logiciel moteur qui manipule la base de données et dirige l'accès à son contenu.
+2. Le système de gestion de base de données est une suite de programmes qui manipule la structure de la base de données et dirige l'accès aux données qui y sont stockées.
+3. Modèle de données
+Le schéma ou modèle de données, est la description de l'organisation des données.
+4. Modèle de données logique et physique
+Le modèle de données logique — ou conceptuel — est la description des données telles qu'elles sont dans la pratique, tandis que le modèle de données physique est un modèle dérivé du modèle logique qui décrit comment les données seront techniquement stockées dans la base de données.
+5. Modèle de données relationnel
+C'est le type de modèle de données le plus couramment utilisé pour la réalisation d'une base de données.
+6. Base de données relationnelle
+Base de données organisée selon un modèle de données de type relationnel, à l'aide d'un SGBD permettant ce type de modèle.
+7. Les bases de données sont souvent des entrepôts de données (anglais datawarehouse) : des bases de données utilisées pour collecter des énormes quantités de données historiques de manière quotidienne depuis une base de données opérationnelle.
+8. Organisation interne
+L'organisation interne d'une base de données — son modèle de données physique — comporte des enregistrements correspondant au modèle de données logique, des pointeurs et des balises utilisées par le SGBD pour retrouver et manipuler les données.
+9. Un système de gestion de base de données est un ensemble de logiciels qui manipulent le contenu des bases de données.
+10. Le système de gestion de base de données adapte automatiquement les index lors de chaque changement effectué sur une base de données et chaque opération est inscrite dans un journal contenu dans la base de données, ce qui permet d'annuler ou de terminer l'opération même en cas de crash informatique et ainsi garantir la cohérence du contenu de la base de données.
+
+Время SE: 1.4 мс   время ML: 5.6 мс

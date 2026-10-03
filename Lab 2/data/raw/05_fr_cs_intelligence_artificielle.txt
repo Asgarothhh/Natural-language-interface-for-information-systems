@@ -1,0 +1,211 @@
+L'intelligence artificielle (IA) est l'ensemble des systèmes informatiques capables d'effectuer des tâches typiquement associées à l'intelligence, telles que l'apprentissage, le raisonnement, la résolution de problèmes, la perception ou la prise de décision. L'intelligence artificielle est également le champ de recherche visant à développer de tels systèmes.
+L'IA est un domaine de l'informatique qui s'appuie sur des fondements mathématiques (statistiques, algèbre linéaire, probabilités) et des concepts issus des sciences cognitives. Elle vise à résoudre des problèmes à forte complexité logique ou algorithmique. Par extension, dans le langage courant, l'IA inclut les dispositifs imitant, simulant ou remplaçant l'homme dans certaines mises en œuvre de ses fonctions cognitives.
+Les applications de l'IA couvrent de nombreux domaines, notamment les moteurs de recherche, les systèmes de recommandation, l'aide au diagnostic médical, la compréhension du langage naturel, les voitures autonomes, les chatbots, les outils de génération d'images, les outils de prise de décision automatisée, les programmes compétitifs dans des jeux de stratégie et certains personnages non-joueurs de jeu vidéo.
+Le champ de recherche, établi en 1956, a connu des périodes d'optimisme et de déception au cours du XXe siècle. Dès 2012, l'utilisation de processeurs graphiques a permis de largement accélérer les réseaux de neurones artificiels, favorisant l'adoption de l'apprentissage automatique au détriment d’approches reposant sur des règles explicitement programmées. Cette tendance s'est renforcée en 2017 avec l'apparition de l'architecture transformeur et des grands modèles de langage, qui sont entraînés sur de grandes quantités de texte issu d'internet. En 2022, l'IA générative a été largement popularisée avec la sortie de ChatGPT. Des modèles de génération de musique, d'images ou de vidéos ont également vu le jour.
+L'IA suscite des inquiétudes concernant l'emploi, la désinformation, son impact environnemental et la protection des données personnelles. Certains estiment que les progrès en intelligence artificielle pourraient représenter un risque existentiel.
+
+Définition
+
+L’expression « intelligence artificielle », souvent abrégée par le sigle « IA » (ou « AI » en anglais, pour artificial intelligence) a été introduite en 1956 par John McCarthy, qui l’a définie en 2004 comme « la science et l'ingénierie de la fabrication de machines intelligentes, en particulier de programmes informatiques intelligents. Elle est liée à la tâche similaire qui consiste à utiliser des ordinateurs pour comprendre l'intelligence humaine, mais l'IA ne doit pas se limiter aux méthodes qui sont biologiquement observables ».
+Pour Marvin Lee Minsky, l'un de ses créateurs, l'IA est « la construction de programmes informatiques qui s'adonnent à des tâches qui sont, pour l'instant, accomplies de façon plus satisfaisante par des êtres humains car elles demandent des processus mentaux de haut niveau tels que : l'apprentissage perceptuel, l'organisation de la mémoire et le raisonnement critique ». Cette définition combine l'aspect « artificiel » des ordinateurs et des processus informatiques, aux aspects « intelligents » d'imitation de comportements humains, notamment de raisonnement et d'apprentissage. Celui-ci est à l'œuvre dans les jeux, dans la pratique des mathématiques, dans la compréhension du langage naturel, dans la perception visuelle (interprétation des images et des scènes), auditive (compréhension du langage parlé) ou par d'autres capteurs, dans la commande d'un robot dans un milieu inconnu ou hostile.
+Avant les années 2000, d'autres définitions sont proches de celle de Minsky, mais varient sur deux points fondamentaux :
+
+les définitions qui lient l'IA à un aspect humain de l'intelligence et celles qui la lient à un modèle idéal d'intelligence, non forcément humaine, nommée rationalité ;
+les définitions qui insistent sur le fait que l'IA a pour but d'avoir toutes les apparences de l'intelligence (humaine ou rationnelle), et celles qui insistent sur le fait que le fonctionnement interne du système d'IA doit ressembler également à celui de l'être humain et être au moins aussi rationnel.
+
+Le grand public confond souvent l'intelligence artificielle avec l'apprentissage automatique (machine learning) et l'apprentissage profond (deep learning). Ces trois notions diffèrent et sont en réalité imbriquées : l'intelligence artificielle englobe l'apprentissage automatique, qui lui-même englobe l'apprentissage profond.
+Les définitions font souvent intervenir :
+
+une capacité à percevoir l'environnement et à prendre en compte la complexité du monde réel ;
+un traitement de l'information (collecter et interpréter des intrants, captés sous forme de données) ;
+des prises de décision (y compris dans le raisonnement et l'apprentissage), choix d'actions, exécution de tâches (dont d'adaptation, de réaction aux changements de contexte…), avec un certain niveau d'autonomie ;
+la réalisation d'objectifs spécifiques (raison ultime des systèmes d'IA).
+Le groupe AI Watch note que les IA peuvent aussi être classées en fonction des familles d’algorithmes et/ou des modèles théoriques qui les sous-tendent, des capacités cognitives reproduites par l’IA, des fonctions exécutées par l’IA. Les applications de l’IA peuvent, elles, être classées en fonction du secteur socioéconomique et/ou des fonctions qu'elles y remplissent.
+Une manière de définir l'intelligence artificielle est de considérer ses applications et les types de tâches qu'elle résout. Un rapport de la Commission européenne publié en 2020 présente une taxonomie classant les définitions de l'IA selon diverses tâches réalisées, telles que le raisonnement, l'apprentissage, la perception, etc.. La même année, Jack Copeland, professeur universitaire qui a étudié les travaux d'Alan Turing et a écrit sur l'intelligence artificielle, propose une définition similaire, qui permet de distinguer plus clairement les facettes de l'IA, selon cinq catégories principales :
+
+L'apprentissage généralisé : l'IA apprend à partir de données diverses pour identifier des modèles et appliquer ces connaissances à de nouvelles situations, comme détecter des fraudes en ligne ;
+Le raisonnement : cette capacité permet à l'IA de faire des prédictions et tirer des conclusions à partir des données, aidant dans des décisions comme la prédiction de comportements d'achat ;
+La résolution de problèmes : l'IA trouve des solutions optimales pour des problèmes spécifiques, utilisée dans des contextes comme l'optimisation industrielle ou les stratégies de jeu ;
+La perception : elle permet à l'IA de reconnaître et interagir avec son environnement, utilisée dans la robotique avancée et les véhicules autonomes pour naviguer et accomplir des tâches ;
+La compréhension du langage : l'IA analyse et génère du langage à travers le NLP, utilisé dans des applications comme les assistants vocaux et les chatbots pour améliorer l'interaction utilisateur.
+
+Techniques
+
+Apprentissage automatique
+L'apprentissage automatique consiste à permettre au modèle d'IA d'apprendre à effectuer une tâche au lieu de spécifier exactement comment il doit l'accomplir. Le modèle contient des paramètres dont les valeurs sont ajustées tout au long de l'apprentissage. La méthode de la rétropropagation du gradient est capable de détecter, pour chaque paramètre, dans quelle mesure il a contribué à une bonne réponse ou à une erreur du modèle, et peut l'ajuster en conséquence. L'apprentissage automatique nécessite un moyen d'évaluer la qualité des réponses fournies par le modèle. Les principales méthodes d'apprentissage sont :
+
+Apprentissage supervisé
+Un jeu de données annoté est utilisé pour entraîner l'algorithme. Il contient des données d'entrée fournies au modèle et les réponses correspondantes attendues, que le modèle est entraîné à produire. Il est parfois difficile de se procurer suffisamment de données annotées avec les réponses attendues.
+Apprentissage non supervisé
+Un jeu de données est fourni au modèle, mais n'est pas annoté avec les réponses attendues. Le but peut par exemple être de regrouper les données similaires entre elles (clustering).
+Apprentissage auto-supervisé
+Un problème d'apprentissage supervisé est automatiquement généré à partir d'un jeu de données non annoté. Cela fonctionne souvent en cachant une partie des informations (des mots d'un texte, des morceaux d'images…) afin d'entraîner le modèle à les prédire.
+Apprentissage par renforcement
+L'agent est plongé dans un environnement où ce qu'il fait est évalué. Par exemple, un agent peut apprendre à jouer aux échecs en jouant contre lui-même, et le résultat (victoire ou défaite) permet à chaque itération d'évaluer s'il a bien joué. Il n'y a dans ce cas pas besoin de jeu de données.
+
+Réseaux de neurones
+
+Les réseaux de neurones artificiels sont inspirés du fonctionnement du cerveau humain : les neurones sont en général connectés à d'autres neurones en entrée et en sortie. Les neurones d'entrée, lorsqu'ils sont activés, agissent comme s'ils participaient à un vote pondéré pour déterminer si un neurone intermédiaire doit être activé et ainsi transmettre un signal vers les neurones de sortie. En pratique, pour l'équivalent artificiel, les « neurones d'entrée » ne sont que des nombres et les poids de ce « vote pondéré » sont des paramètres ajustés lors de l'apprentissage.
+Hormis la fonction d'activation, les réseaux de neurones artificiels n'effectuent en pratique que des additions et des multiplications matricielles, ce qui fait qu'ils peuvent être accélérés par l'utilisation de processeurs graphiques. En théorie, un réseau de neurones peut approximer n'importe quelle fonction.
+Pour de simples réseaux de neurones à propagation avant (feedforward en anglais), le signal ne passe que dans une direction. Avec les réseaux de neurones récurrents, le signal de sortie de chaque neurone est réinjecté en entrée de ce neurone, permettant d’implémenter un mécanisme de mémoire à court terme. Les réseaux neuronaux convolutifs, qui sont particulièrement utilisés en traitement d'images, introduisent une notion de localité. Leurs premières couches identifient des motifs relativement basiques et locaux comme des contours, là où les dernières couches traitent de motifs plus complexes et globaux.
+
+Apprentissage profond
+L'apprentissage profond (deep learning en anglais) utilise de multiples couches de neurones entre les entrées et les sorties, d'où le terme « profond ». L'utilisation de processeurs graphiques pour accélérer les calculs et l'augmentation des données disponibles a contribué à la montée en popularité de l'apprentissage profond. Il est utilisé notamment en vision par ordinateur, en reconnaissance automatique de la parole et en traitement automatique des langues (ce qui inclut les grands modèles de langage).
+
+Grands modèles de langages
+Les grands modèles de langage sont des modèles de langage ayant des milliards de paramètres. Ils reposent très souvent sur l'architecture transformeur.
+Les transformeurs génératifs préentraînés (Generative Pretrained Transformers ou GPT en anglais) sont un type particulièrement populaire de grand modèle de langage. Leur « pré-entraînement » consiste à prédire, étant donnée une partie d'un texte, le token suivant (un token étant une séquence de caractères, typiquement un mot, une partie d'un mot, ou de la ponctuation). Cet entraînement à prédire ce qui va suivre, répété pour un grand nombre de textes, permet à ces modèles d'accumuler des connaissances sur le monde. Ils peuvent ensuite générer du texte semblable à celui ayant servi au pré-entraînement, en prédisant un à un les tokens suivants. En général, une autre phase d'entraînement est ensuite effectuée pour rendre le modèle plus véridique, utile et inoffensif. Cette phase d'entraînement (utilisant souvent une technique appelée RLHF) permet notamment de réduire un phénomène appelé « hallucination », où le modèle génère des informations d'apparence plausible mais fausses.
+Avant d'être fourni au modèle, le texte est découpé en tokens. Ceux-ci sont convertis en vecteurs qui en encodent le sens ainsi que la position dans le texte. À l'intérieur de ces modèles se trouve une alternance de réseaux de neurones et de couches d'attention. Les couches d'attention combinent les concepts entre eux, permettant de tenir compte du contexte et de saisir des relations complexes.
+Ces modèles sont souvent intégrés dans des agents conversationnels, aussi appelés chatbots, où le texte généré est formaté pour répondre à l'utilisateur. Par exemple, l'agent conversationnel ChatGPT exploite les modèles GPT-3.5 et GPT-4. En 2023 apparaissent des modèles grand public pouvant traiter simultanément différents types de données comme le texte, le son, les images et les vidéos, tel Google Gemini.
+
+Recherche et optimisation
+Certains problèmes nécessitent de chercher intelligemment parmi de nombreuses solutions possibles.
+
+Recherche locale
+
+La recherche locale, ou recherche par optimisation, repose sur l'optimisation mathématique pour trouver une solution numérique à un problème, en améliorant progressivement la solution choisie.
+En particulier, en apprentissage automatique, la descente de gradient permet de trouver une solution localement optimale, étant donné une fonction de coût à minimiser en faisant varier les paramètres du modèle. Elle consiste, à chaque étape, à modifier les paramètres à optimiser dans la direction qui permet de réduire le mieux la fonction de coût. La solution obtenue est localement optimale, mais il se peut qu'il y ait globalement de meilleures solutions, qui auraient pu être obtenues avec différentes valeurs initiales de paramètres. Les modèles d'IA modernes peuvent avoir des milliards de paramètres à optimiser, et utilisent souvent des variantes plus complexes et efficaces de la descente de gradient.
+Les algorithmes évolutionnistes, inspirés de la théorie de l'évolution, utilisent une forme de recherche par optimisation. À chaque étape, des opérations telles que la « mutation » ou le « croisement » sont effectuées de manière aléatoire pour obtenir différentes variantes, et les variantes les mieux adaptées sont sélectionnées pour l'étape suivante.
+
+Recherche dans l'espace des états
+La recherche dans l'espace des états vise à trouver un état accomplissant l'objectif à travers un arbre des états possibles. Par exemple, la recherche antagoniste est utilisée pour des programmes jouant à des jeux tels que les échecs ou le go. Elle consiste à parcourir l'arbre des coups possibles par le joueur et son adversaire, à la recherche d'un coup gagnant. La simple recherche exhaustive est rarement suffisante en pratique vu le nombre d'états possibles. Des heuristiques sont utilisées pour prioriser les chemins les plus prometteurs.
+
+Intelligence artificielle quantique
+L'IA quantique est un domaine de recherche interdisciplinaire qui vise à exploiter les propriétés uniques de la physique quantique (dont la superposition quantique et l'intrication quantique) pour résoudre des problèmes complexes inaccessibles aux IA classiques, au moyen d'ordinateurs quantiques exécutant de nouveaux types d'algorithmes. Certains experts estiment que l'informatique quantique pourrait à long terme améliorer les performances des systèmes d'apprentissage automatique.
+
+Comportements prédéfinis (imitation d'intelligence)
+
+Pour les intelligences artificielles servant principalement à donner une impression d'intelligence dans un cadre contrôlé, notamment pour les personnages non-joueurs des jeux vidéo, il est courant que l'apprentissage automatique ne soit pas utilisé. Un ensemble de fonctions et comportements plus précis et moins flexibles sont alors implémentés.
+Il s'agit souvent de listes de textes ou paroles prédéfinis, aux déclenchements parfois conditionnels, par exemple un choix de mouvements suivant une série de règles et des déplacements de recherche de chemin.
+
+Logique
+La logique formelle est utilisée pour le raisonnement et la représentation des connaissances. Elle se décline en deux principales formes, la logique propositionnelle et la logique prédicative. La logique propositionnelle opère sur des affirmations qui sont vraies ou fausses, et utilise la logique connective avec des opérateurs tels que « et », « ou », « non » et « implique ». La logique prédicative étend la logique propositionnelle et peut aussi opérer sur des objets, prédicats ou relations. Elle peut utiliser des quantificateurs comme dans « Chaque X est un Y » ou « Certains X sont des Y ».
+L'inférence logique (ou déduction) est le processus qui consiste à fournir — à l'aide d'un moteur d'inférence — une nouvelle affirmation (la conclusion) à partir d'autres affirmations connues comme étant vraies (les prémisses). Une règle d'inférence décrit les étapes valides d'une preuve ; la plus générale est la règle de résolution. L'inférence peut être réduite à la recherche d'un chemin amenant des prémisses aux conclusions, où chaque étape est une application d'une règle d'inférence. Mais à part pour de courtes preuves dans des domaines restreints, la recherche exhaustive prend beaucoup de temps.
+La logique floue assigne des valeurs de vérité entre 0 et 1, permettant de gérer des affirmations vagues, comme « il fait chaud ». La logique non monotone permet d'annuler certaines conclusions. Diverses autres formes de logique sont développées pour décrire de nombreux domaines complexes.
+
+Méthodes probabilistes et gestion de l'incertitude
+
+De nombreux problèmes en IA (raisonnement, planification, apprentissage, perception, robotique, etc.) nécessitent de pouvoir opérer à partir d'informations incomplètes ou incertaines.
+Certaines techniques reposent sur l'inférence bayésienne, qui fournit une formule pour mettre à jour des probabilités subjectives étant données de nouvelles informations. C'est notamment le cas des réseaux bayésiens. L'inférence bayésienne nécessite souvent d'être approximée pour pouvoir être calculée.
+Les méthodes de Monte-Carlo sont un ensemble de techniques pour résoudre des problèmes complexes en effectuant aléatoirement de nombreuses simulations afin d'approximer la solution.
+Les réseaux de neurones peuvent aussi être optimisés pour fournir des estimations probabilistes.
+
+Des outils mathématiques précis ont été développés pour analyser comment des agents intelligents peuvent faire des choix et des plans en utilisant la théorie de la décision, la maximisation de l'espérance et la théorie de la valeur de l'information. Ces techniques comprennent des modèles tels que les processus de décision markoviens, la théorie des jeux et les mécanismes d'incitation.
+
+Classifieurs et méthodes statistiques
+De nombreux modèles d'IA ont pour but d'assigner une catégorie (classification), une valeur (régression) ou une action à des données fournies. Les méthodes de classification comprennent arbres de décision, k plus proches voisins, machine à vecteurs de support ou classification bayésienne naïve. Les réseaux de neurones peuvent également faire de la classification.
+
+Histoire
+
+Comme précurseur à l'intelligence artificielle, divers automates ont été créés au cours de l'histoire, dont le canard de Vaucanson ou les automates d'Al-Jazari. Certains automates remontent à l'Antiquité et étaient utilisés pour des cérémonies religieuses. Des mythes et rumeurs rapportent également la création d'êtres intelligents, par exemple les golems.
+Des philosophes et mathématiciens comme Raymond Lulle, Leibniz ou George Boole ont cherché à formaliser le raisonnement et la génération d'idées.
+Au XXe siècle, Alan Turing a notamment inventé un modèle de calcul par la suite appelé machine de Turing, exploré la notion de calculabilité et d'intelligence des machines, et proposé le « jeu de l'imitation » (test de Turing) pour évaluer l'intelligence de futures machines. Le terme « intelligence artificielle » a été mis en avant par John McCarthy lors de la conférence de Dartmouth en 1956, où l'intelligence artificielle a été établie en tant que discipline à part entière. Dans les années qui ont suivi, des chercheurs ont proposé diverses preuves de concept, dans des situations spécifiques, de ce que les machines peuvent faire en théorie. Par exemple, le programme ELIZA pouvait se faire passer pour un psychothérapeute, et le Logic Theorist pouvait démontrer des théorèmes.
+La fin du siècle a été marquée par des périodes d'enthousiasme, et deux périodes de désillusion et de gel des financements appelées « hivers de l'IA », la première de 1974 à 1980 et la seconde de 1987 à 1993. Les systèmes experts ont été particulièrement populaires dans les années 1980, malgré leur fragilité et la difficulté à implémenter manuellement les bonnes règles d'inférences. Des techniques d'apprentissage automatique se sont développées (réseaux de neurones, rétropropagation du gradient, algorithmes génétiques) ainsi que l'approche connexionniste. Mais les faibles puissances de calcul et le manque de données d'entraînement limitaient leur efficacité. Certains domaines n'ont progressivement plus été considérés comme faisant partie de l'intelligence artificielle, à mesure qu'une solution efficace était trouvée ; un phénomène parfois appelé « effet IA ». En 1997, pour la première fois, un supercalculateur a gagné plusieurs parties au jeu d'échec contre le champion du monde.
+
+Dans les années 2000, le Web 2.0, le big data et de nouvelles infrastructures et capacités de calcul ont permis l'exploration de masses de données sans précédent. En 2005, le projet Blue Brain a débuté, ayant pour objectif de simuler le cerveau de mammifères. En 2012, le réseau neuronal convolutif AlexNet a lancé l'utilisation de processeurs graphiques pour entraîner des réseaux de neurones, décuplant ainsi les capacités de calcul dédiées à l'apprentissage. En 2016, un programme a gagné quatre des cinq parties de go jouées contre Lee Sedol, l'un des meilleurs joueurs au monde. Des organisations visant à créer une intelligence artificielle générale ont vu le jour, comme DeepMind en 2010 et OpenAI en 2015. Dès les années 2010, des outils d'intelligence artificielle (spécialisée ou générative) ont accompli des progrès spectaculaires, mais restent loin des performances du vivant dans beaucoup de ses aptitudes naturelles, en particulier sur son aptitude à apprendre rapidement à partir d'un faible volume d'information (par induction), selon le magazine Slate en 2019.
+En 2017, des chercheurs de Google ont proposé l'architecture transformeur, qui a servi de base aux grands modèles de langage. En 2018, Yann Le Cun, Yoshua Bengio et Geoffrey Hinton ont remporté le prix Turing pour leurs travaux sur l'apprentissage profond.
+En 2022, des programmes générant des images à partir de descriptions textuelles, comme Midjourney ou DALL-E 2, se sont popularisés. La même année, l'agent conversationnel ChatGPT a connu une croissance inédite, gagnant un million d'utilisateurs en seulement cinq jours et cent millions d'utilisateurs en deux mois, ce qui a accentué un phénomène de « course » à l'IA. En 2023, les progrès rapides de l'IA ont suscité des inquiétudes quant à un potentiel risque d'extinction de l'humanité. Des modèles de fondation « multimodaux », c'est-à-dire capables de traiter simultanément plusieurs modalités (texte, images, son) ont émergé, tels que Google Gemini et GPT-4o.
+De nouvelles infrastructures matérielles se sont développées, exploitant notamment les processeurs graphiques Blackwell et les TPU. Des recherches explorent également les potentielles applications de l'ordinateur quantique en AI. Le concept d'« usine d'IA » s'est également concrétisé, qui comprend des infrastructures intégrées combinant production et entraînement de modèles à grande échelle avec des supercalculateurs et des centres de données dédiés. En 2025, plusieurs projets de ce type étaient annoncés, notamment aux États-Unis et en Europe, comme le partenariat entre l'Allemagne et Nvidia.
+
+Intelligence artificielle générale
+
+L'intelligence artificielle générale (IAG) comprend tout système informatique capable d'effectuer ou d'apprendre pratiquement n'importe quelle tâche cognitive propre aux humains ou autres animaux. Elle peut alternativement être définie comme un système informatique surpassant les humains dans la plupart des tâches ayant un intérêt économique.
+L'intelligence artificielle générale a longtemps été considérée comme un sujet purement spéculatif. Certains travaux de recherche ont déjà décrit GPT-4 comme ayant des « étincelles » d'intelligence artificielle générale. Les experts en intelligence artificielle affichent de larges désaccords et incertitudes quant à la date potentielle de conception des premières intelligences artificielles générales (parfois appelées « intelligences artificielles de niveau humain »), leur impact sur la société, et leur potentiel à déclencher une « explosion d'intelligence ».
+Un sondage de 2022 suggère que 90 % des experts en IA pensent que l'IAG a plus d'une chance sur deux d'être réalisée dans les 100 ans, autour d'une date médiane de 2061.
+Une superintelligence artificielle est un type hypothétique d'intelligence artificielle générale dont les capacités intellectuelles dépasseraient de loin celles des humains les plus brillants. Le philosophe Nick Bostrom note que les machines disposent de certains avantages par rapport aux cerveaux humains, notamment en ce qui concerne la mémoire, la vitesse (la fréquence des processeurs étant de l'ordre de dix millions de fois plus élevée que celle des neurones biologiques) et la capacité à partager des connaissances.
+
+Tests
+Dans ce contexte, un test est un moyen d'évaluer les capacités d'une intelligence artificielle à imiter certains comportements et raisonnements humains.
+
+Test de Turing
+
+Dans le test de Turing, une machine et un humain répondent textuellement aux questions d'un interrogateur humain. L'interrogateur ne les voit pas mais doit déterminer à partir des réponses textuelles lequel des deux est la machine. Pour passer le test, la machine doit parvenir une bonne partie du temps à tromper l'interrogateur. Ce test a été conçu par Alan Turing en 1950 dans l'article « Computing Machinery and Intelligence ». Initialement appelé le « jeu de l'imitation », son but était de fournir une expérience concrète pour déterminer si les machines peuvent penser.
+
+Test du café
+Imaginé par Steve Wozniak, le test du café consiste à placer un système intelligent dans un habitat américain moyen et à lui demander de faire un café. La réussite du test implique donc plusieurs tâches comme l'orientation dans un environnement inconnu, déduire le fonctionnement d'une machine, trouver les ustensiles nécessaires…
+
+Test de l'étudiant
+Proposé par Ben Goertzel, le test de l'étudiant évalue la capacité d'un robot à s'inscrire dans un établissement d'enseignement supérieur, suivre les cours, passer les examens et obtenir le diplôme final.
+
+Test de l'embauche
+Proposé par le chercheur Nils John Nilsson, le test de l'embauche consiste à faire postuler un système intelligent à un travail important pour l'économie, où il doit travailler au moins aussi bien qu'un humain.
+
+Test HLE
+HLE (Humanity's Last Exam, Dernier Examen de l'Humanité) est un test de performance particulièrement difficile créé en 2025 par le Center for AI Safety et Scale AI pour évaluer des grands modèles de langage. Il comprend 2 500 questions dans sept disciplines principales (mathématiques, physique, biologie/médecine, sciences humaines et sociales, informatique et IA, ingénierie, chimie), créées par des experts de leur domaine. Il est publié  dans la revue Nature, le 28 janvier 2026.
+
+Personnalités
+
+Prix Turing
+
+Plusieurs prix Turing (ACM Turing Award) ont été attribués à des pionniers de l'intelligence artificielle, notamment :
+
+Marvin Minsky (1969) ;
+John McCarthy (1971) ;
+Allen Newell et Herbert Simon (1975) ;
+Edward Feigenbaum et Raj Reddy (1994) ;
+Judea Pearl (2011) ;
+Yann Le Cun, Geoffrey Hinton et Yoshua Bengio (2019).
+
+Autres personnalités
+Claude Shannon, fondateur de la théorie de l'information, inventeur de la porte logique, concepteur de programmes d'échecs.
+Rodney Brooks, un roboticien australien.
+Demis Hassabis, cofondateur et PDG de DeepMind.
+Ian Goodfellow, inventeur des réseaux antagonistes génératifs.
+Andrew Ng, connu comme directeur scientifique de Baidu et comme créateur de Coursera.
+Terry Winograd, pionnier en traitement automatique des langues.
+Vladimir Vapnik, co-inventeur des machines à vecteurs de support.
+Seymour Papert, ancien directeur du Laboratoire d'intelligence artificielle du MIT.
+Jacques Pitrat, pionnier français en intelligence artificielle symbolique.
+En 2023, le magazine Time publie une liste de 100 personnalités influentes du domaine de l'IA et leurs biographies.
+
+Domaines d'application
+
+L'IA permet d'effectuer différents types de tâches, dont :
+
+la génération de texte, d'images, de vidéos ou de musiques avec l'IA générative, à partir d'un prompt décrivant le résultat attendu ;
+la résolution d’exercices mathématiques par des applications éducatives comme Photomath ou AskMathAI ;
+l'analyse statistique et l'interprétation de grandes masses de données (big data) issues d'Internet ;
+la personnalisation de contenus, par exemple par les systèmes de recommandation des réseaux sociaux ;
+le partitionnement et la classification automatiques ;
+la reconnaissance de formes, des visages et la vision en général, etc. ;
+l'intégration automatique d'informations provenant de sources hétérogènes (fusion de données) ;
+l'aide aux diagnostics et à la décision ;
+l'assistance par des machines dans les tâches dangereuses ou demandant une grande précision ;
+l'automatisation de tâches ;
+le traitement automatique des langues, notamment la traduction automatique ;
+la reconnaissance automatique de la parole (conversion de parole en texte) et le dialogue automatique : se faire comprendre en lui parlant ;
+le raisonnement automatique ;
+la composition musicale automatique (voir les travaux de René-Louis Baron et de l'Ircam ; vers 2016, les recherches de François Pachet portent le développement de 'flow machines' telles que Deepbach) ;
+l'émotion artificielle (voir les travaux de Rosalind Picard sur l'émotion) et l'éventualité d'une subjectivité artificielle ;
+la résolution de problèmes complexes, tels que les problèmes d'allocation de ressources.
+En combinant différents algorithmes, on est passé en quelques années de la reconnaissance de l'écriture manuscrite sur des formulaires de chèques bancaires (années 1990) à l'optimisation d'itinéraires entre deux ou plusieurs points, tenant compte des voies disponibles, de la longueur et de la vitesse probable sur chacun des segments, du moyen de locomotion et de souhaits particuliers (éviter les péages, points de passage obligés, caractéristiques touristiques, etc.), puis à la reconnaissance automatisée de documents dactylographiés ou manuscrits, permettant ensuite de les classer selon leur nature avant de les transmettre à des agents spécialisés, humains ou automates, capables d'y apporter la suite appropriée (réponses prédéfinies ou déclenchement d'une chaine de traitements). Lorsque les algorithmes ne parviennent pas à interpréter les données avec un degré suffisant de certitude, ils sont généralement soumis à des humains. Entre alors en jeu l'apprentissage : en corrélant les caractéristiques des données accumulées et des interprétations apportées ou corrigées par les agents humains, l'IA améliore progressivement ses facultés d'analyse jusqu'à ce que ses prédictions soient suffisamment fiables pour qu'il ne soit plus nécessaire de les faire vérifier par un humain. Il en va de même pour la plupart des situations où l'IA, par ses performances et son coût, surpasse l'humain dans l'analyse de textes, d'images fixes ou animées, d'enregistrements sonores et de données scientifiques, commerciales ou industrielles. L'accroissement des performances conjuguées du matériel et des algorithmes permet en outre de traiter en temps réels les flux de données comme la voix humaine et les images de caméras, ouvrant ainsi la voie à la traduction simultanée, la transcription textuelle, l'identification des individus, la détection de comportements anormaux ou illégaux, voire le dialogue avec des humains.
+L'intelligence artificielle est désormais utilisée dans de nombreux domaines. Ses capacités permettent notamment d'automatiser et d'optimiser des tâches complexes, de traiter et d'analyser de vastes quantités de données, et d'améliorer la prise de décision. L'adoption de l'intelligence artificielle est en forte expansion dans les années 2020, stimulée par les avancées en intelligence artificielle générative, en particulier dans les grands modèles de langage, dont la polyvalence ouvre la voie à de nouveaux cas d'usage, ainsi que dans les domaines de la programmation informatique (génération de code), de l'image et du son (photos et vidéos de synthèse, animation du visage en association avec la synthèse vocale) et dans la prévention et l'atténuation des risques (diagnostic médical, situations de crise, accidents industriels, catastrophes naturelles, etc.).
+
+Finance et banques
+
+Plusieurs grands noms de la finance se sont montrées intéressées par de telles technologies, avec des projets comme ceux de Bridgewater Associates où une intelligence artificielle va gérer entièrement un fonds ou encore la plateforme d'analyse prédictive Sidetrade.
+Sont également développés des systèmes de trading algorithmique, dont les gains de vitesses permis par l'automatisation peuvent leur donner un avantage par rapport à des traders humains, en particulier grâce au trading à haute fréquence.
+
+Militaire
+
+Le domaine militaire utilise de plus en plus l'intelligence artificielle, notamment pour le pilotage automatique, le guidage de missiles, l'identification, le commandement, l'aide à la décision, la cyberguerre et la cyberdéfense, ou pour la documentation et les processus administratifs.
+Cette course aux armements est notamment illustrée par le projet Maven aux États-Unis. Dès 2015, une IA nommée ALPHA a « systématiquement triomphé d'un pilote de chasse chevronné ». En 2018, l'ONU a tenté d'adopter une résolution de son Assemblée générale prônant l'interdiction des systèmes d'armes létales autonomes « avant qu'il ne soit trop tard », mais peine encore en janvier 2024 à établir un cadre juridique international face aux réticences, notamment d'Israël, et de la Russie et des États-Unis qui disposent tous deux d'un droit de veto pouvant bloquer toute résolution contraignante. Des drones tueurs pilotés par intelligence artificielle ont été utilisés lors du conflit russo-ukrainien. Le 10 janvier 2024, OpenAI a modifié ses conditions d'utilisation : la société continue d'interdire l'usage de ses services tels que ChatGPT à des fins illégales ou de destruction des biens, mais n'interdit plus explicitement les usages militaires. L'intelligence artificielle générative est parfois utilisée par les institutions militaires pour rédiger plus vite la documentation, mais son adoption est limitée par la confidentialité des données, les réglementations, ou le risque d'erreur et le besoin de vérification.
+En France, la force opérationnelle IA du ministère des Armées rend en septembre 2019 un rapport détaillant sa stratégie, qui inclut la création d'une Cellule de coordination de l'intelligence artificielle de défense (CCIAD) rattachée à l'Agence de l'innovation de défense. La loi de programmation militaire prévoit un budget de 700 millions d'euros pour les missions en faveur de l'IA, soit une moyenne de 100 millions par an. En 2021, la France est opposée aux armes totalement autonome, estimant qu'il est au moins nécessaire de conserver une supervision humaine. En février 2025, le ministère des Armées lance sa plateforme GenIAl.intradef (codéveloppée depuis 2022 par plusieurs entités), destinée à améliorer le travail quotidien des militaires et agents civils associés à l'armée. Cette IA alimente un agent conversationnel et un convertisseur audio-texte ; elle peut lire et analyser des documents et des images et traduire des messages.
+Dans le cadre de la guerre à Gaza depuis 2023, Israël a utilisé deux systèmes d'IA pour générer des cibles à frapper : Habsora (soit « Évangile ») a été utilisé pour dresser une liste de bâtiments à cibler, tandis que Lavander a produit une liste de 37 000 personnes à cibler. La liste des bâtiments comprenait les maisons privées à Gaza de personnes soupçonnées d'être affiliées à des membres du Hamas. Les responsables de Tsahal affirment que le programme répond au problème antérieur du manque de cibles de l’armée de l’air. Auparavant, Tsahal était en mesure d'identifier 50 cibles par an, tandis que le programme en produit 100 par jour. La combinaison de la technologie de ciblage de l’IA et du changement de politique consistant à éviter les cibles civiles a entraîné un nombre sans précédent de morts civils palestiniens.
+Alors que l'intelligence artificielle est vue comme une étape vers les « guerres sans mort », la philosophe Marie-des-Neiges Ruffo de Calabre tempère en expliquant que les guerres prolongées useront de moyens rustiques après l'épuisement des moyens ultratechnologiques. Au contraire, l'intelligence artificielle pourrait même désensibiliser à la violence en creusant les distances entre le militaire et sa cible, éventuellement civile.
+
+Médecine
+
+La médecine a aussi vu de grands progrès grâce à l'utilisation de systèmes d'aide au diagnostic ou de diagnostic automatisé.
+En 2018, Google DeepMind, filiale de Google spécialisée dans la recherche avancée en intelligence artificielle, a publié les résultats d'une expérimentation d'intelligence artificielle pouvant détecter les maladies oculaires. Les résultats indiquent que l'IA le fait avec une marge d'erreur plus faible que les ophtalmologues.
+Google DeepMind a également conçu AlphaFold, un système d'intelligence artificielle utilisant l'apprentissage profond qui permet de prédire la façon dont des protéines se replient. Les protéines sont composées de chaînes d'acides aminés et la façon dont elles se replient détermine leur fonction. Cette nouvelle méthode, introduite en 2018 et améliorée en 2020, est nettement plus rapide que les approches traditionnelles et a été décrite comme une révolution dans le domaine de la recherche en biologie.
+La France crée en 2019 le Health Data Hub afin d'encadrer et de faciliter l'utilisation des données de santé dans la recherche.
+En 2023, la version de ChatGPT reposant sur GPT-4 s'est montrée facilement capable d'obtenir le diplôme de médecin aux États-Unis.
+L'intelligence artificielle (IA) est de plus en plus utilisée dans le domaine médical, transformant les pratiques cliniques et facilitant le diagnostic, le traitement et la gestion des maladies. Les algorithmes d'apprentissage automatique, un sous-ensemble de l'IA, analysent de grandes quantités de données médicales pour en extraire des modèles et des tendances. Cette capacité d'analyse a permis des avancées significatives dans le diagnostic précoce de maladies comme le cancer et les maladies cardiaques, où les systèmes basés sur l'IA peuvent détecter des anomalies à partir d'images médicales avec une précision parfois supérieure à celle des praticiens humains.
+Un des domaines où l'IA s'avère particulièrement efficace est celui de l'imagerie médicale. Des outils comme les réseaux de neurones convolutifs sont utilisés pour analyser les radiographies, les IRM et autres types d'imageries, permettant de repérer les signes précoces de pathologies complexes. Par exemple, une étude menée par McKinney et al. (2020) a démontré que l'IA pouvait réduire les faux positifs et négatifs dans le dépistage du cancer du sein, améliorant ainsi la précision et la rapidité du diagnostic.
+De plus, l'IA joue un rôle clé dans la médecine personnalisée, où elle aide à adapter les traitements en fonction des caractéristiques génétiques et biologiques des patients. Grâce à l'analyse des données génomiques, les médecins peuvent élaborer des thérapies spécifiques pour des maladies comme le cancer ou les maladies génétiques rares. L'IA facilite également le développement de nouveaux médicaments, en identifiant des molécules potentielles pour le traitement de certaines maladies, un processus qui nécessitait auparavant plusieurs années.
+Cependant, malgré ses promesses, l'usage de l'IA en médecine soulève des questions éthiques et de sécurité, notamment en ce qui concerne la protection des données des patients et la transparence des algorithmes. La Food and Drug Administration (FDA) aux États-Unis et d'autres organismes réglementaires travaillent à définir des cadres pour encadrer l'utilisation sécurisée et éthique de l'IA dans les soins de santé.
+Début 2026, OpenAI lance ChatGPT Santé, un service qui centralise et analyse les données médicales provenant de carnets de santé et d'applications comme Santé d'Apple pour aider les utilisateurs à mieux comprendre leur état de santé, sans poser de diagnostic officiel. Le service, développé avec des médecins, soulève des inquiétudes concernant la confidentialité des données.
+En septembre 2026 est décrite une IA généraliste de niveau expert pour le diagnostic des images de tomodensitométrie abdominale avec injection de produit de contraste, une modalité d'imagerie courante mais l'une des plus complexes à interpréter en raison de la multiplicité des structures anatomiques abdominales et du fait que des anomalies cliniquement significatives peuvent se présenter sous une forme subtile, risquant de passer inaperçues.
+
+Renseignement policier

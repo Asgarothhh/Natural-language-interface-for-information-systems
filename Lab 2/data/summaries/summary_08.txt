@@ -1,0 +1,82 @@
+Реферат документа: L'Étranger
+id=8  язык=french  область=literature
+Исходный документ: /home/asgaroth/University/4 курс/Natural-language-interface-for-information-systems/Lab 2/data/documents/08_fr_lit_letranger.pdf
+Предложений в тексте: 314  символов: 41940
+
+=== 1. Sentence extraction ===
+
+Ключевые слова (иерархия):
+camus
+    albert camus
+    roman camus
+    étranger albert camus
+    roman albert camus
+meursault
+    meursault contre
+    meursault contre enquête
+    meursault tue
+    tué meursault
+étranger
+    étranger albert
+    canada étranger
+    public canada étranger
+    bien étranger
+alger
+    algérie française
+    département alger
+    alger actuelle
+    wilaya alger
+arabe
+    arabe plage
+    deux arabes
+    arabes tel
+    approche arabe
+ami
+    meursault ami
+    ami demande
+    céleste ami
+    ami meursault
+plage
+    promènent plage
+    plage croisent
+    retourne plage
+    plage meursault
+paul
+    jean paul
+    paul sartre
+    jean paul sartre
+    paul belmondo
+
+Классический реферат:
+1. Résumé
+Le roman met en scène un personnage-narrateur nommé Meursault, vivant à Alger en Algérie française.
+2. La veillant toute la nuit, il assiste le lendemain à la mise en bière et aux funérailles, sans avoir l'attitude attendue d’un fils endeuillé ; le protagoniste ne pleure pas, il ne veut pas simuler un chagrin qu'il ne ressent pas.
+3. Le lendemain matin, son voisin, Raymond Sintès, proxénète notoire, prétendant vouloir faire de Meursault un ami, lui demande de l'aider à écrire une lettre pour se venger de sa maîtresse, que Meursault devine mauresque (tel que cité dans le roman, sans plus de précision).
+4. Pour Jean-Paul Sartre, le roman d'Albert Camus vise à donner le « sentiment de l'absurde », selon les termes qu'il emploie dans son article « Explication de L'Étranger », paru la veille de la sortie du roman de Camus et daté de 1943 (puis repris dans les Situations de 1947).
+5. Albert Camus lui-même confirme en partie cette interprétation, mais souligne bien que L'Étranger n'est pas tant selon lui une démonstration de l'absurdité du monde, que de la confrontation entre le caractère non sensé du monde et le désir de compréhension de l'homme : « Ce qui est absurde, c'est la confrontation de cet irrationnel et de ce désir éperdu de clarté dont l'appel résonne au plus profond de l'homme », écrit-il dans Le Mythe de Sisyphe.
+6. Le philosophe Gabriel Marcel dans son article « Le refus du salut et l'exaltation de l'homme absurde », recueilli dans Homo Viator (Aubier Montaigne, 1944), se livre à une lecture critique de L’Étranger (pages 269 à 273), où il reproche à Camus son monadisme radical et le contre-pari pascalien auquel il se livre.
+7. Style
+La lecture du manuscrit de L'Étranger inspira à André Malraux des remarques stylistiques qui furent communiquées à Camus par son ami Pascal Pia.
+8. Critiques
+Dans son ouvrage Culture et impérialisme (en), le critique littéraire Edward Saïd souligne que, bien que L'Étranger soit souvent interprété comme une sorte de métaphore abstraite de la condition humaine, le roman est profondément ancré dans son contexte historique, à savoir l'Algérie coloniale dans laquelle Albert Camus a grandi.
+9. Traductions
+Le roman a été traduit en soixante-huit langues, ce qui en fait le troisième roman francophone le plus lu dans le monde, après Le Petit Prince de Saint-Exupéry et Vingt Mille Lieues sous les mers de Jules Verne.
+10. Les pourparlers concernant les droits d'adaptation s'engagent en octobre – via Lucienne Watier (l'impresario de Gérard Philipe) de l'agence Cimura – avec Dionys Mascolo, représentant les éditions Gallimard, et le producteur de cinéma d'origine russe Sacha Gordine pour un tournage envisagé au printemps 1951.
+
+=== 2. Машинное обучение (TextRank) ===
+
+1. L'Étranger est le premier roman publié d'Albert Camus, paru en 1942.
+2. Un dimanche midi, après un repas bien arrosé, Meursault, Raymond et Masson se promènent à la plage et croisent deux « Arabes » (tel qu'écrit dans le roman, sans plus de précision, expression à replacer dans un contexte colonial), dont l'un est le frère de la maîtresse de Raymond.
+3. Après s'être fait soigner, Raymond retourne à la plage avec Meursault et rencontre à nouveau les deux hommes.
+4. Pour Jean-Paul Sartre, le roman d'Albert Camus vise à donner le « sentiment de l'absurde », selon les termes qu'il emploie dans son article « Explication de L'Étranger », paru la veille de la sortie du roman de Camus et daté de 1943 (puis repris dans les Situations de 1947).
+5. Par Albert Camus
+En 1954, soit 12 ans après la publication du roman, Camus enregistre pour l'ORTF la lecture intégrale de L’Étranger.
+6. Meursault, contre-enquête, Kamel Daoud, éditions Barzakh, 2013  (ISBN 978-9931-325-56-7) et Actes Sud 2014  (ISBN 978-2330033729), est un roman proposant le point de vue du frère de « l'Arabe », tué par Meursault.
+7. En février 2015 est publié aux éditions Allary le roman La Joie, de Charles Pépin, où l'auteur et « philosophe emprunte à Albert Camus, puisqu'il s'inspire du célèbre récit du prix Nobel de littérature L'Étranger.
+8. Aujourd'hui, Meursault est mort - Dialogue avec Albert Camus, Salah Guemriche, éditions Frantz Fanon  (ISBN 978-9931-572-04-6), Alger février 2017 (Première édition en livre numérique : Amazon, 27 juin 2013).
+9. ]: João Álvaro, 1970
+Revue des Lettres modernes, Autour de L’Étranger, série Albert Camus 16, 1995
+Edoardo Cagnan, « Meursault entre voix et texte : la monotonie de la ponctuation dans L’Étranger d’Albert Camus », Études françaises, vol.
+10. Gustave Acault l’ouvre à la culture ; dans sa correspondance avec Jean Grenier, dix-sept ans plus tard en février 1946, déplorant la mort subite de cet oncle, Camus se montre reconnaissant : « C'était le seul homme qui m’ait fait imaginer un peu ce que pouvait être un père. »
+
+Время SE: 1.8 мс   время ML: 6.5 мс

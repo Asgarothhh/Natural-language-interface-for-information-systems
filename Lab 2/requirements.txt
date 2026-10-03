@@ -1,0 +1,5 @@
+numpy
+nltk
+pymupdf
+matplotlib
+scikit-learn

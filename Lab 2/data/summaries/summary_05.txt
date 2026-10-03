@@ -1,0 +1,79 @@
+Реферат документа: Intelligence artificielle
+id=5  язык=french  область=computer science
+Исходный документ: /home/asgaroth/University/4 курс/Natural-language-interface-for-information-systems/Lab 2/data/documents/05_fr_cs_intelligence_artificielle.pdf
+Предложений в тексте: 246  символов: 41654
+
+=== 1. Sentence extraction ===
+
+Ключевые слова (иерархия):
+intelligence
+    intelligence artificielle
+    intelligence artificielle générale
+    intelligences artificielles
+    intelligence humaine
+artificielle
+    artificielle générale
+    neurones artificiels
+    réseaux neurones artificiels
+    artificielle notamment
+décision
+    prise décision
+    décision automatisée
+    prises décision
+    décision compris
+quantique
+    artificielle quantique
+    quantique quantique
+    quantique domaine
+    physique quantique
+inférence
+    règle inférence
+    inférence bayésienne
+    inférence logique
+    moteur inférence
+résolution
+    résolution problèmes
+    raisonnement résolution
+    achat résolution
+    règle résolution
+évaluer
+    moyen évaluer
+    évaluer qualité
+    fait évalué
+    itération évaluer
+cibles
+    générer cibles
+    cibles frapper
+    bâtiments cibler
+    cibler tandis
+
+Классический реферат:
+1. L'intelligence artificielle (IA) est l'ensemble des systèmes informatiques capables d'effectuer des tâches typiquement associées à l'intelligence, telles que l'apprentissage, le raisonnement, la résolution de problèmes, la perception ou la prise de décision.
+2. Les applications de l'IA couvrent de nombreux domaines, notamment les moteurs de recherche, les systèmes de recommandation, l'aide au diagnostic médical, la compréhension du langage naturel, les voitures autonomes, les chatbots, les outils de génération d'images, les outils de prise de décision automatisée, les programmes compétitifs dans des jeux de stratégie et certains personnages non-joueurs de jeu vidéo.
+3. L’expression « intelligence artificielle », souvent abrégée par le sigle « IA » (ou « AI » en anglais, pour artificial intelligence) a été introduite en 1956 par John McCarthy, qui l’a définie en 2004 comme « la science et l'ingénierie de la fabrication de machines intelligentes, en particulier de programmes informatiques intelligents.
+4. Pour Marvin Lee Minsky, l'un de ses créateurs, l'IA est « la construction de programmes informatiques qui s'adonnent à des tâches qui sont, pour l'instant, accomplies de façon plus satisfaisante par des êtres humains car elles demandent des processus mentaux de haut niveau tels que : l'apprentissage perceptuel, l'organisation de la mémoire et le raisonnement critique ».
+5. Les définitions qui lient l'IA à un aspect humain de l'intelligence et celles qui la lient à un modèle idéal d'intelligence, non forcément humaine, nommée rationalité ;
+les définitions qui insistent sur le fait que l'IA a pour but d'avoir toutes les apparences de l'intelligence (humaine ou rationnelle), et celles qui insistent sur le fait que le fonctionnement interne du système d'IA doit ressembler également à celui de l'être humain et être au moins aussi rationnel.
+6. Le grand public confond souvent l'intelligence artificielle avec l'apprentissage automatique (machine learning) et l'apprentissage profond (deep learning).
+7. Apprentissage automatique
+L'apprentissage automatique consiste à permettre au modèle d'IA d'apprendre à effectuer une tâche au lieu de spécifier exactement comment il doit l'accomplir.
+8. Les neurones d'entrée, lorsqu'ils sont activés, agissent comme s'ils participaient à un vote pondéré pour déterminer si un neurone intermédiaire doit être activé et ainsi transmettre un signal vers les neurones de sortie.
+9. Intelligence artificielle quantique
+L'IA quantique est un domaine de recherche interdisciplinaire qui vise à exploiter les propriétés uniques de la physique quantique (dont la superposition quantique et l'intrication quantique) pour résoudre des problèmes complexes inaccessibles aux IA classiques, au moyen d'ordinateurs quantiques exécutant de nouveaux types d'algorithmes.
+10. Pour les intelligences artificielles servant principalement à donner une impression d'intelligence dans un cadre contrôlé, notamment pour les personnages non-joueurs des jeux vidéo, il est courant que l'apprentissage automatique ne soit pas utilisé.
+
+=== 2. Машинное обучение (TextRank) ===
+
+1. L'intelligence artificielle (IA) est l'ensemble des systèmes informatiques capables d'effectuer des tâches typiquement associées à l'intelligence, telles que l'apprentissage, le raisonnement, la résolution de problèmes, la perception ou la prise de décision.
+2. L'intelligence artificielle est également le champ de recherche visant à développer de tels systèmes.
+3. Les applications de l'IA couvrent de nombreux domaines, notamment les moteurs de recherche, les systèmes de recommandation, l'aide au diagnostic médical, la compréhension du langage naturel, les voitures autonomes, les chatbots, les outils de génération d'images, les outils de prise de décision automatisée, les programmes compétitifs dans des jeux de stratégie et certains personnages non-joueurs de jeu vidéo.
+4. Le grand public confond souvent l'intelligence artificielle avec l'apprentissage automatique (machine learning) et l'apprentissage profond (deep learning).
+5. Apprentissage non supervisé
+Un jeu de données est fourni au modèle, mais n'est pas annoté avec les réponses attendues.
+6. Les réseaux de neurones peuvent également faire de la classification.
+7. Au XXe siècle, Alan Turing a notamment inventé un modèle de calcul par la suite appelé machine de Turing, exploré la notion de calculabilité et d'intelligence des machines, et proposé le « jeu de l'imitation » (test de Turing) pour évaluer l'intelligence de futures machines.
+8. Certains travaux de recherche ont déjà décrit GPT-4 comme ayant des « étincelles » d'intelligence artificielle générale.
+9. En 2018, Google DeepMind, filiale de Google spécialisée dans la recherche avancée en intelligence artificielle, a publié les résultats d'une expérimentation d'intelligence artificielle pouvant détecter les maladies oculaires.
+10. Google DeepMind a également conçu AlphaFold, un système d'intelligence artificielle utilisant l'apprentissage profond qui permet de prédire la façon dont des protéines se replient.
+
+Время SE: 1.4 мс   время ML: 5.8 мс

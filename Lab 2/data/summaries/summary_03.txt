@@ -1,0 +1,80 @@
+Реферат документа: Hamlet
+id=3  язык=english  область=literature
+Исходный документ: /home/asgaroth/University/4 курс/Natural-language-interface-for-information-systems/Lab 2/data/documents/03_en_lit_hamlet.pdf
+Предложений в тексте: 305  символов: 41293
+
+=== 1. Sentence extraction ===
+
+Ключевые слова (иерархия):
+hamlet
+    prince hamlet
+    king hamlet
+    hamlet like
+    hamlet prince
+claudius
+    claudius tries
+    uncle claudius
+    claudius murdered
+    king claudius
+ophelia
+    ophelia driven
+    ophelia become
+    ophelia wooed
+    act ophelia
+polonius
+    polonius orders
+    father polonius
+    tells polonius
+    polonius hamlet
+madness
+    feigning madness
+    gone mad
+    mad swears
+    hamlet madness
+father
+    father brother
+    father death
+    hamlet father
+    father order
+ghost
+    witness ghost
+    ghost king
+    learning ghost
+    ghost horatio
+quarto
+    first quarto
+    second quarto
+    quarto name
+    quarto second
+
+Классический реферат:
+1. The Tragedy of Hamlet, Prince of Denmark, often shortened to Hamlet (), is a tragedy written by William Shakespeare sometime between 1599 and 1601.
+2. Set in Denmark, the play depicts Prince Hamlet and his attempts to exact revenge against his uncle, Claudius, who has murdered Hamlet's father in order to seize his throne and marry Hamlet's mother.
+3. Act I
+Prince Hamlet of Denmark is the son of the recently deceased King Hamlet and nephew of King Claudius, his father's brother and successor.
+4. Act II
+Ophelia tells Polonius that Hamlet had appeared at her chamber and behaved erratically; Polonius concludes that Hamlet's madness is due to love.
+5. Act III
+Polonius orders Ophelia to return Hamlet's love tokens, while he and Claudius secretly watch to evaluate Hamlet's reaction.
+6. Act IV and V
+The king sends Rosencrantz and Guildenstern to accompany Hamlet to England with a sealed letter to the English king requesting that Hamlet be executed.
+7. Hamlet-like legends are so widely found (for example in Italy, Spain, Scandinavia, Byzantium, and Arabia) that the core "hero-as-fool" theme is possibly Indo-European in origin.
+8. Professor Terri Bourus in 2016, one of three general editors of the New Oxford Shakespeare, in her paper "Enter Shakespeare's Young Hamlet, 1589" suggests that Shakespeare was "interested in sixteenth-century French literature, from the very beginning of his career" and therefore "did not need Thomas Kyd to pre-digest Belleforest's histoire of Amleth and spoon-feed it to him".
+9. MacCary suggests 1599 or 1600; James Shapiro offers late 1600 or early 1601; Wells and Taylor suggest that the play was written in 1600 and revised later; the New Cambridge editor settles on mid-1601; the New Swan Shakespeare Advanced Series editor agrees with 1601; Thompson and Taylor, tentatively ("according to whether one is the more persuaded by Jenkins or by Honigmann") suggest a terminus ad quem of either spring 1601 or sometime in 1600.
+10. First Quarto (Q1): In 1603 the booksellers Nicholas Ling and John Trundell published, and Valentine Simmes printed, the so-called "bad" first quarto, under the name The Tragicall Historie of Hamlet Prince of Denmarke.
+
+=== 2. Машинное обучение (TextRank) ===
+
+1. The Tragedy of Hamlet, Prince of Denmark, often shortened to Hamlet (), is a tragedy written by William Shakespeare sometime between 1599 and 1601.
+2. Set in Denmark, the play depicts Prince Hamlet and his attempts to exact revenge against his uncle, Claudius, who has murdered Hamlet's father in order to seize his throne and marry Hamlet's mother.
+3. Three different early versions of the play are extant: the First Quarto (Q1, 1603); the Second Quarto (Q2, 1604); and the First Folio (F1, 1623).
+4. Act I
+Prince Hamlet of Denmark is the son of the recently deceased King Hamlet and nephew of King Claudius, his father's brother and successor.
+5. Claudius married King Hamlet's widow and Prince Hamlet's mother, Gertrude.
+6. Prince Hamlet's friend Horatio, and two sentries, witness the ghost of King Hamlet and resolve to tell Prince Hamlet.
+7. That night, the ghost appears to Hamlet and tells him that he was murdered by Claudius: demanding that Hamlet avenge him, which Hamlet vows to do.
+8. The precise combination of Shakespeare's use of the Ur-Hamlet, Belleforest, Saxo, or Kyd's The Spanish Tragedy as sources for Hamlet is not known.
+9. Claudius and Polonius spy on Ophelia as she meets with Hamlet.
+10. Hamlet's first words in the play are a pun; when Claudius addresses him as "my cousin Hamlet, and my son", Hamlet says as an aside: "A little more than kin, and less than kind."
+
+Время SE: 1.6 мс   время ML: 5.8 мс

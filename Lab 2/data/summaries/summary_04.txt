@@ -1,0 +1,75 @@
+Реферат документа: Romanticism
+id=4  язык=english  область=literature
+Исходный документ: /home/asgaroth/University/4 курс/Natural-language-interface-for-information-systems/Lab 2/data/documents/04_en_lit_romanticism.pdf
+Предложений в тексте: 223  символов: 40641
+
+=== 1. Sentence extraction ===
+
+Ключевые слова (иерархия):
+romanticism
+    german romanticism
+    polish romanticism
+    romanticism known
+    romanticism essentially
+art
+    art music
+    emotion art
+    works art
+    visual arts
+scott
+    walter scott
+    scott achieved
+    scott novels
+    scott scotland
+byron
+    lord byron
+    lyre byron
+    byron still
+    byron percy
+scottish
+    scottish poet
+    distant scottish
+    scottish past
+    celebrated scottish
+enlightenment
+    age enlightenment
+    counter enlightenment
+    enlightenment industrial
+    enlightenment movement
+revolution
+    french revolution
+    industrial revolution
+    revolution direct
+    widespread revolution
+poetry
+    romantic poetry
+    defence poetry
+    wrote poetry
+    poetry begin
+
+Классический реферат:
+1. Romanticism (also known as the Romantic movement or Romantic era) was an artistic and intellectual movement that originated in Europe towards the end of the 18th century.
+2. With this philosophical foundation, the Romanticists elevated several key themes to which they were deeply committed: a reverence for nature and the supernatural, an idealization of the past as a nobler era, a fascination with the exotic and the mysterious, and a celebration of the heroic and the sublime.
+3. The first Romantic ideas arose from an earlier German Counter-Enlightenment movement called Sturm und Drang (German: "Storm and Stress").
+4. A confluence of circumstances led to Romanticism's decline in the mid-19th century, including (but not limited to) the rise of Realism and Naturalism, Charles Darwin's publishing of the On the Origin of Species, the transition from widespread revolution in Europe to a more conservative climate, and a shift in public consciousness to the immediate impact of technology and urbanization on the working class.
+5. Romantics like the German painter Caspar David Friedrich believed that an artist's emotions should dictate their formal approach; Friedrich went as far as declaring that "the artist's feeling is his law".
+6. The Romantic poet William Wordsworth, thinking along similar lines, wrote that poetry should begin with "the spontaneous overflow of powerful feelings", which the poet then "recollect[s] in tranquility", enabling the poet to find a suitably unique form for representing such feelings.
+7. According to Isaiah Berlin, Romanticism embodied "a new and restless spirit, seeking violently to burst through old and cramping forms, a nervous preoccupation with perpetually changing inner states of consciousness, a longing for the unbounded and the indefinable, for perpetual movement and change, an effort to return to the forgotten sources of life, a passionate effort at self-assertion both individual and collective, a search after means of expressing an unappeasable yearning for unattainable goals".
+8. In philosophy and the history of ideas, Romanticism was seen by Isaiah Berlin as disrupting for over a century the classic Western traditions of rationality and the idea of moral absolutes and agreed values, leading "to something like the melting away of the very notion of objective truth", and hence not only to nationalism, but also fascism and totalitarianism, with a gradual recovery coming only after World War II.
+9. Arthur Lovejoy attempted to demonstrate the difficulty of defining Romanticism in his seminal article "On the Discrimination of Romanticisms" in his Essays in the History of Ideas (1948); some scholars see Romanticism as essentially continuous with the present, some like Robert Hughes see in it the inaugural moment of modernity, while writers of the 19th Century such as Chateaubriand, Novalis and Samuel Taylor Coleridge saw it as the beginning of a tradition of resistance to Enlightenment rationalism—a "Counter-Enlightenment"— to be associated most closely with German Romanticism.
+10. In English literature, the key figures of the Romantic movement are considered to be the group of poets including William Wordsworth, Samuel Taylor Coleridge, John Keats, Lord Byron, Percy Bysshe Shelley and the much older William Blake, followed later by the isolated figure of John Clare; also such novelists as Walter Scott from Scotland and Mary Shelley, and the essayists William Hazlitt and Charles Lamb.
+
+=== 2. Машинное обучение (TextRank) ===
+
+1. Romanticism (also known as the Romantic movement or Romantic era) was an artistic and intellectual movement that originated in Europe towards the end of the 18th century.
+2. Romanticism has had a lasting impact on Western civilization, and many works of art, music, and literature that embody the Romantic ideals have been made after the end of the Romantic era.
+3. The early period of the Romantic era was a time of war, with the French Revolution (1789–1799) followed by the Napoleonic Wars until 1815.
+4. The Scottish poet James Macpherson influenced the early development of Romanticism with the international success of his Ossian cycle of poems published in 1762, inspiring both Goethe and the young Walter Scott.
+5. In English literature, the key figures of the Romantic movement are considered to be the group of poets including William Wordsworth, Samuel Taylor Coleridge, John Keats, Lord Byron, Percy Bysshe Shelley and the much older William Blake, followed later by the isolated figure of John Clare; also such novelists as Walter Scott from Scotland and Mary Shelley, and the essayists William Hazlitt and Charles Lamb.
+6. In contrast to Germany, Romanticism in English literature had little connection with nationalism, and the Romantics were often regarded with suspicion for the sympathy many felt for the ideals of the French Revolution, whose collapse and replacement with the dictatorship of Napoleon was, as elsewhere in Europe, a shock to the movement.
+7. While these two novels were written and published after the Romantic period is said to have ended, their novels were heavily influenced by Romantic literature they had read as children.
+8. Burns, an Ayrshire poet and lyricist, is widely regarded as the national poet of Scotland and a major influence on the Romantic movement.
+9. After the Bourbon Restoration, French Romanticism developed in the lively world of Parisian theatre, with productions of Shakespeare, Schiller (in France a key Romantic author), and adaptations of Scott and Byron alongside French authors, several of whom began to write in the late 1820s.
+10. This close connection between Polish Romanticism and Polish history became one of the defining qualities of the literature of Polish Romanticism period, differentiating it from that of other countries.
+
+Время SE: 1.5 мс   время ML: 5.5 мс

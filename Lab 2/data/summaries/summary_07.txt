@@ -1,0 +1,76 @@
+Реферат документа: Les Misérables
+id=7  язык=french  область=literature
+Исходный документ: /home/asgaroth/University/4 курс/Natural-language-interface-for-information-systems/Lab 2/data/documents/07_fr_lit_les_miserables.pdf
+Предложений в тексте: 299  символов: 40756
+
+=== 1. Sentence extraction ===
+
+Ключевые слова (иерархия):
+valjean
+    jean valjean
+    valjean cosette
+    jean valjean cosette
+    valjean javert
+misérables
+    hugo misérables
+    victor hugo misérables
+    ignorance misère
+    misère livres
+marius
+    cosette marius
+    marius cosette
+    fantine cosette marius
+    marius époux
+cosette
+    fantine cosette
+    enfant cosette
+    cosette malfaisants
+    occupera cosette
+thénardier
+    époux thénardier
+    thénardier enfants
+    malfaisants thénardier
+    thénardier partie
+javert
+    jean valjean javert
+    loi javert
+    police javert
+    javert cessera
+fantine
+    misère fantine
+    partie fantine
+    fantine décrit
+    déchéance fantine
+amour
+    éponine amour
+    hymne amour
+    tombe amoureux
+    amoureux fille
+
+Классический реферат:
+1. Il décrit la vie de pauvres gens dans Paris et la France provinciale du premier tiers du XIXe siècle, l’auteur s'attachant plus particulièrement au destin du bagnard Jean Valjean ; il a donné lieu à de nombreuses adaptations, au cinéma et sur d’autres supports.
+2. Autour de lui gravitent les personnages, dont certains vont donner leur nom aux différentes parties du roman, témoins de la misère de ce siècle, misérables eux-mêmes ou proches de la misère : Fantine, Cosette, Marius, mais aussi les époux Thénardier et leurs enfants Éponine, Azelma et Gavroche, ainsi que le représentant de la loi, Javert.
+3. Outre le récit souvent dramatique des péripéties des vies de ces personnages, Victor Hugo interrompt régulièrement l'action pour de vastes digressions (telle la longue description de la bataille de Waterloo ouvrant la deuxième partie), prétextes à exposer ses idées sur l'Histoire, la société ou la religion.
+4. En parallèle, on suit la déchéance de Fantine, fille-mère obligée de confier son enfant, Cosette, aux malfaisants Thénardier ; cette partie s'achève sur une série de coups de théâtre, Jean Valjean reprenant sa véritable identité et se livrant à la justice pour sauver un innocent ; il a cependant eu le temps de jurer à Fantine mourante qu'il s'occupera de Cosette.
+5. Dans la deuxième partie (Cosette), on voit Jean Valjean s'évader, arracher Cosette aux Thénardier, et tenter de s'installer à Paris pour y mener une vie tranquille, mais il a attiré l'attention de l'inspecteur de police Javert, qui ne cessera plus de le traquer ; cette partie se conclut sur le sauvetage miraculeux de Jean Valjean, trouvant refuge dans le couvent du Petit-Picpus.
+6. Roman épique, Les Misérables dépeint au moins trois grandes fresques : la bataille de Waterloo (qui représente pour l'auteur la fin de l'épopée napoléonienne et le début de l'ère bourgeoise ; il s'aperçoit alors qu'il est républicain), l'émeute de Paris en juin 1832, la traversée des égouts de Paris par Jean Valjean.
+7. Les Misérables est aussi un hymne à l'amour : amour chrétien sans concession de Mgr Myriel qui, au début du roman, demande sa bénédiction au conventionnel G. (peut-être inspiré par l'abbé Grégoire) ; amours déçues de Fantine et Éponine ; amour paternel de Jean Valjean pour Cosette ; amour partagé de Marius et Cosette ; Victor Hugo axe d'ailleurs toute la troisième partie sur la personne de Marius en qui il se reconnaît jeune.
+8. « Tant qu’il existera, par le fait des lois et des mœurs, une damnation sociale créant artificiellement, en pleine civilisation, des enfers, et compliquant d’une fatalité humaine la destinée qui est divine ; tant que les trois problèmes du siècle, la dégradation de l’homme par le prolétariat, la déchéance de la femme par la faim, l’atrophie de l'enfant par la nuit, ne seront pas résolus ; tant que, dans de certaines régions, l’asphyxie sociale sera possible ; en d’autres termes, et à un point de vue plus étendu encore, tant qu’il y aura sur la terre ignorance et misère, des livres de la nature de celui-ci pourront ne pas être inutiles. »
+9. Robert Laffont et Valentino Bompiani signalent, dans Le Nouveau Dictionnaire des œuvres de tous les temps, la présence dans Les Misérables de l'influence de Balzac (La Comédie humaine), d'Eugène Sue (Les Mystères de Paris) et des romans-feuilletons.
+10. De même que la parenté entre Vautrin, Jean Valjean et même Javert (le second étant l'envers positif des deux autres) est assez évidente, le monde et les coutumes des bagnards étant décrits dans Splendeurs et misères des courtisanes, l'étude intertextuelle des Misérables révèle que le forçat se nourrit également d'un autre personnage balzacien apparaissant dans Le Curé de village, Farrabesche.
+
+=== 2. Машинное обучение (TextRank) ===
+
+1. Les Misérables est un roman de Victor Hugo publié en 1862, l’un des plus vastes et des plus notables de la littérature du XIXe siècle.
+2. Les Misérables est aussi un hymne à l'amour : amour chrétien sans concession de Mgr Myriel qui, au début du roman, demande sa bénédiction au conventionnel G. (peut-être inspiré par l'abbé Grégoire) ; amours déçues de Fantine et Éponine ; amour paternel de Jean Valjean pour Cosette ; amour partagé de Marius et Cosette ; Victor Hugo axe d'ailleurs toute la troisième partie sur la personne de Marius en qui il se reconnaît jeune.
+3. Au moment où il écrit ce livre, Victor Hugo est en exil.
+4. ), Victor Hugo, Les Misérables, Paris, Klincksieck, coll. «
+5. Articles, communications, contributions à des ouvrages collectifs
+Pierre Angrand, « À propos des Misérables : genèse et fortune du roman », Revue d'histoire littéraire de la France, Paris, Armand Colin, no 3 (60e année),‎ juillet-septembre 1960, p. 334-344 (JSTOR 40521991).
+6. Roland Desné, « Histoire, épopée et roman : Les Misérables à Waterloo », Revue d'histoire littéraire de la France, Paris, Armand Colin, nos 2-3 (75e année) « Le roman historique »,‎ mars-juin 1975, p. 321-328 (lire en ligne).
+7. Georges Huard, « Le Petit-Picpus des Misérables et les informatrices de Victor Hugo : Mme Biard et Juliette Drouet », Revue d'histoire littéraire de la France, Paris, Armand Colin, no 3 (60e année),‎ juillet-septembre 1960, p. 345-387 (JSTOR 40521992).
+8. Pierre Malandain, « La réception des Misérables ou « Un lieu où des convictions sont en train de se former » », Revue d'histoire littéraire de la France, Paris, Armand Colin, no 6 (86e année) « Victor Hugo »,‎ novembre-décembre 1986, p. 1065-1079 (lire en ligne).
+9. Le portrait de Marius », Revue d'histoire littéraire de la France, Paris, Armand Colin, no 4 (62e année),‎ octobre-décembre 1962, p. 534-554 (lire en ligne).
+10. Victor Hugo héritier de sa tante Martin-Chopine », Revue d'histoire littéraire de la France, Paris, Armand Colin, no 4 (62e année),‎ octobre-décembre 1962, p. 575-592 (lire en ligne).
+
+Время SE: 1.7 мс   время ML: 6.2 мс
